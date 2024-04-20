@@ -2,8 +2,37 @@
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
 }
+
+@keyframes hover-effect {
+    0%   {opacity: 1; right: 0px}
+    50%   {opacity: .9; right: 50px;}
+    100%   {opacity: 1; right: 0px;}
+}
         
 .spacer-top {margin-top:5rem;}
+
+.round-right {border-radius: 0% 300px 300px 0%;
+    max-height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.round-right img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    display: inline-flexbox;
+    border-radius: 0% 300px 300px 0%;
+    margin-top:30px;
+    margin-left: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.round-right img:hover {animation-name: hover-effect;
+    animation: 4s ease-in 1s infinite;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
 #demo .carousel-item img {  
     object-fit: cover;
