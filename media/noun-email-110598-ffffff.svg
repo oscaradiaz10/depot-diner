@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200pt" height="1200pt" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+ <path transform="scale(25)" d="m47 20.9v26.1h-46v-26.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+ <path transform="scale(25)" d="m8.1 25.7v-24.7h31.8v24.7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+ <path transform="scale(25)" d="m1 20.9 23 15.4 23-15.4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+ <path transform="scale(25)" d="m39.9 15.4 7.1 5.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+ <path transform="scale(25)" d="m1 20.9 7.1-5.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+ <path d="m712.5 572.5c-40 22.5-82.5 30-130 30-120 0-222.5-87.5-222.5-230 0-152.5 105-282.5 267.5-282.5 127.5 0 212.5 90 212.5 212.5 0 110-62.5 175-130 175-30 0-57.5-20-55-65h-2.5c-25 42.5-60 65-102.5 65s-80-35-80-92.5c0-90 72.5-175 175-175 32.5 0 60 7.5 77.5 15l-25 132.5c-10 55-2.5 82.5 22.5 82.5 37.5 0 80-50 80-135 0-105-65-180-177.5-180-120 0-222.5 95-222.5 242.5 0 122.5 80 197.5 187.5 197.5 42.5 0 80-10 110-25zm-40-317.5c-7.5-2.5-20-5-37.5-5-65 0-117.5 60-117.5 132.5 0 32.5 15 55 47.5 55 42.5 0 82.5-55 90-100z" fill="#fff"/>
+</svg>
