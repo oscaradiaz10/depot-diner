@@ -1,1 +1,28 @@
+:root {
+    --bs-body-font-size: 1.12rem;
+    --bs-primary-rgb: 225, 225, 225;
+}
+        
+.spacer-top {margin-top:5rem;}
 
+#demo .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:80vh;
+}
+
+#demo .carousel-item:before {
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.65));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+/**  RESPONSIVE BEGINS  **/
+@media screen and (max-width:568px) {
+
+}
