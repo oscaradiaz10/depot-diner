@@ -12,11 +12,11 @@
             <div class="carousel-item active">
                 <img src="media/img_6821-020522-121318.webp" alt="Los Angeles" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h1>Where Friends Meet &amp;<br/>Neighbors Gather</h1>
+                    <p>NOW OPEN<br/>Table Rock Lake, Golden, MO</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!--<div class="carousel-item">
                 <img src="https://www.w3schools.com/bootstrap5/chicago.jpg" alt="Chicago" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
@@ -29,7 +29,7 @@
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
-            </div>
+            </div>-->
         </div>
       
         <!-- Left and right controls/icons -->

@@ -1,15 +1,101 @@
 :root {
+    --color1: rgb(152, 70, 85);
+    --color2: rgb(69, 85, 97);
+    --color3: rgb(34, 50, 61);
+    --color4: rgb(245, 251, 239);
+    --opacity1: rgba(152, 70, 85, .25);
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
+    --bs-light-rgb: 255, 255, 255;
+}
+
+body {background-image: url("media/bg-texture.webp") 1;
+    background-color: var(--color4);
 }
 
 @keyframes hover-effect {
     0%   {opacity: 1; right: 0px}
-    50%   {opacity: .9; right: 50px;}
-    100%   {opacity: 1; right: 0px;}
+    50%  {opacity: .9; right: 50px;}
+    100% {opacity: 1; right: 0px;}
 }
-        
-.spacer-top {margin-top:5rem;}
+
+@keyframes fadeIn {
+    0%   {opacity: .45;
+        word-spacing: 0px;
+    }
+    100% {opacity: 1;
+        word-spacing: 12px;
+    }
+}
+
+p {font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4 {font-family: "Piazzolla", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: .15rem;
+    color: var(--color1);
+}
+
+.btn-primary {background-color: var(--color2);
+    border-color: var(--color2);
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    word-spacing: 2px;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {background-color: var(--color3);
+    border-color: var(--color3);
+}
+
+.jumbotron {background-color: var(--opacity1);
+    padding-top: 50px;
+    bottom: -10px !important;
+}
+
+.spacer-top {margin-top: 7rem;}
+
+#demo .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:80vh;
+}
+
+#demo .carousel-item:before {
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.65));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+.carousel-caption {top: 10rem;
+    text-align: left;
+    left: 11%;
+    opacity: .9;
+}
+
+.carousel-caption h1 {font-size: 6rem;
+    letter-spacing: .25rem;
+    word-spacing: 12px;
+    transition: 2s;
+    color: var(--color1);
+    animation: fadeIn 2s;
+}
+
+.carousel-caption p {font-size: 1.75rem;
+    font-weight: bold;
+    animation: fadeIn 2s;
+}
 
 .round-right {border-radius: 0% 300px 300px 0%;
     max-height: 600px;
@@ -33,23 +119,6 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
-#demo .carousel-item img {  
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-    height:80vh;
-}
-
-#demo .carousel-item:before {
-    content: "";
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.65));
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-  }
 
 /**  RESPONSIVE BEGINS  **/
 @media screen and (max-width:568px) {
