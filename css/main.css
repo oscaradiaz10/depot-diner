@@ -3,6 +3,7 @@
     --color2: rgb(69, 85, 97);
     --color3: rgb(34, 50, 61);
     --color4: rgb(245, 251, 239);
+    --white: rgb(255,255,255);
     --opacity1: rgba(152, 70, 85, .25);
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
@@ -11,6 +12,10 @@
 
 body {background-image: url("media/bg-texture.webp") 1;
     background-color: var(--color4);
+}
+
+button a {color: var(--white);
+    text-decoration: none;
 }
 
 @keyframes hover-effect {
@@ -29,7 +34,7 @@ body {background-image: url("media/bg-texture.webp") 1;
 }
 
 p {font-family: "Barlow", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
 }
 
@@ -61,11 +66,12 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 .spacer-top {margin-top: 7rem;}
 
+/** CAROUSEL BEGINS **/
 #demo .carousel-item img {  
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-    height:80vh;
+    height:75vh;
 }
 
 #demo .carousel-item:before {
@@ -94,7 +100,6 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 .carousel-caption p {font-size: 1.75rem;
     font-weight: bold;
-    animation: fadeIn 2s;
 }
 
 .round-right {border-radius: 0% 300px 300px 0%;
@@ -118,6 +123,10 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     animation: 4s ease-in 1s infinite;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+
+footer p a {color: var(--color3);
+    text-decoration: none;
 }
 
 /**  RESPONSIVE BEGINS  **/
