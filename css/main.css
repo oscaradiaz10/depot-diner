@@ -66,6 +66,12 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 .spacer-top {margin-top: 7rem;}
 
+.image-intro {object-fit: cover;
+    height: 340px;
+}
+
+.container-fluid {margin:0; padding: 0;}
+
 /** CAROUSEL BEGINS **/
 #demo .carousel-item img {  
     object-fit: cover;
@@ -106,15 +112,15 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     max-height: 600px;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .round-right img {
     width: 100%;
-    max-height: 600px;
+    max-height: 600px !important;
     object-fit: cover;
-    display: inline-flexbox;
     border-radius: 0% 300px 300px 0%;
-    margin-top:30px;
+    margin-top: 100px;
     margin-left: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -125,8 +131,12 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     animation-iteration-count: infinite;
 }
 
+
+/**  FOOTER BEGINS  **/
 footer p a {color: var(--color3);
     text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
 }
 
 /**  RESPONSIVE BEGINS  **/

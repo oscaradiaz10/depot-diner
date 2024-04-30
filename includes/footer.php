@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="media/" alt="">
+                <img src="media/Depot Diner.png" alt="DD Logo" width="230">
             </div>
             <div class="col">
                 <h4>Location</h4>
