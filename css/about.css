@@ -1,0 +1,33 @@
+:root {
+    --color1: rgb(152, 70, 85);
+    --color2: rgb(69, 85, 97);
+    --color3: rgb(34, 50, 61);
+    --color4: rgb(247, 247, 247);
+    --white: rgb(255,255,255);
+    --opacity1: rgba(152, 70, 85, .15);
+    --bs-body-font-size: 1.12rem;
+    --bs-primary-rgb: 225, 225, 225;
+    --bs-light-rgb: 255, 255, 255;
+}
+
+.about-img-left {
+    object-fit: cover;
+    height: 750px;
+    max-height: 750px;
+    width: 135%;
+    margin-left: -310px;
+    margin-bottom: 150px;
+    border-radius: 0 375px 375px 0;
+    box-shadow: 15px 15px 25px var(--opacity1);
+}
+
+.about-img-right {
+    object-fit: cover;
+    height: 750px;
+    max-height: 750px;
+    width: 135%;
+    margin-right: -320px;
+    margin-bottom: 150px;
+    border-radius: 375px 0 0 375px;
+    box-shadow: 15px 15px 25px var(--opacity1);
+} 

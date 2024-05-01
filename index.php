@@ -21,7 +21,7 @@
                         <a class="nav-link" href="/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Menu</a>
+                        <a class="nav-link" href="/menu.php">Our Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Job Opportunities</a>

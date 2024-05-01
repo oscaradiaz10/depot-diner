@@ -5,6 +5,7 @@
     
     <!--  Main Styling  -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
 
     <!--  Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

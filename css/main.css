@@ -2,9 +2,9 @@
     --color1: rgb(152, 70, 85);
     --color2: rgb(69, 85, 97);
     --color3: rgb(34, 50, 61);
-    --color4: rgb(245, 251, 239);
+    --color4: rgb(247, 247, 247);
     --white: rgb(255,255,255);
-    --opacity1: rgba(152, 70, 85, .25);
+    --opacity1: rgba(152, 70, 85, .15);
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
     --bs-light-rgb: 255, 255, 255;
@@ -20,22 +20,19 @@ button a {color: var(--white);
 
 @keyframes hover-effect {
     0%   {opacity: 1; right: 0px}
-    50%  {opacity: .9; right: 50px;}
+    50%  {opacity: ..75; right: 50px;}
     100% {opacity: 1; right: 0px;}
 }
 
 @keyframes fadeIn {
-    0%   {opacity: .45;
-        word-spacing: 0px;
-    }
-    100% {opacity: 1;
-        word-spacing: 12px;
-    }
+    0%   {opacity: .45; word-spacing: 0px;}
+    100% {opacity: 1; word-spacing: 12px;}
 }
 
 p {font-family: "Barlow", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 21px;
+    line-height: 1.55;
 }
 
 h1, h2, h3, h4 {font-family: "Piazzolla", serif;
@@ -67,7 +64,8 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .spacer-top {margin-top: 7rem;}
 
 .image-intro {object-fit: cover;
-    height: 340px;
+    height: 450px;
+    margin-bottom: 100px;
 }
 
 .container-fluid {margin:0; padding: 0;}
@@ -107,30 +105,6 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .carousel-caption p {font-size: 1.75rem;
     font-weight: bold;
 }
-
-.round-right {border-radius: 0% 300px 300px 0%;
-    max-height: 600px;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-.round-right img {
-    width: 100%;
-    max-height: 600px !important;
-    object-fit: cover;
-    border-radius: 0% 300px 300px 0%;
-    margin-top: 100px;
-    margin-left: -50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.round-right img:hover {animation-name: hover-effect;
-    animation: 4s ease-in 1s infinite;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
 
 /**  FOOTER BEGINS  **/
 footer p a {color: var(--color3);
