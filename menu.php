@@ -8,7 +8,8 @@
     <?php include ("includes/links.php"); ?>
 </head>
 <body>
-
+    <?php include ("includes/contact-form.php"); ?>
+    
     <nav class="navbar navbar-expand-md bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="/index.php"><img src="media/Depot Diner.png" width="210px" alt="logo"></a>
@@ -24,10 +25,10 @@
                         <a class="nav-link" href="#">Our Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Job Opportunities</a>
+                        <a class="nav-link" href="/jobs.php">Job Opportunities</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary" type="button">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
             </div>
         </div>
     </nav>

@@ -1,6 +1,5 @@
 <!--  FOOTER BEGINS  -->
-<footer class="mt-4 p-5 bg-primary spacer-top">
-    <div class="container">
+    <div class="container footer">
         <div class="row">
             <div class="col">
                 <img src="media/Depot Diner.png" alt="DD Logo" width="230">
@@ -34,4 +33,3 @@
             </div>
         </div>
     </div>
-</footer>

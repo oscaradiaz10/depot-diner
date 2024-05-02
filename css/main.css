@@ -8,15 +8,24 @@
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
     --bs-light-rgb: 255, 255, 255;
+    --bs-offcanvas-width: 600px;
 }
 
 body {background-image: url("media/bg-texture.webp") 1;
     background-color: var(--color4);
 }
 
+body p {font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.55;
+}
+
 button a {color: var(--white);
     text-decoration: none;
 }
+
+.offcanvas.show:not(.hiding), .offcanvas.showing {width: 600px;}
 
 @keyframes hover-effect {
     0%   {opacity: 1; right: 0px}
@@ -27,12 +36,6 @@ button a {color: var(--white);
 @keyframes fadeIn {
     0%   {opacity: .45; word-spacing: 0px;}
     100% {opacity: 1; word-spacing: 12px;}
-}
-
-p {font-family: "Barlow", sans-serif;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1.55;
 }
 
 h1, h2, h3, h4 {font-family: "Piazzolla", serif;
@@ -64,7 +67,8 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .spacer-top {margin-top: 7rem;}
 
 .image-intro {object-fit: cover;
-    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
     margin-bottom: 100px;
 }
 
@@ -106,8 +110,27 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     font-weight: bold;
 }
 
+.campaign-line-wrapper {
+    height: 10vw;
+    top: -11.5vw;
+}
+
 /**  FOOTER BEGINS  **/
-footer p a {color: var(--color3);
+.footer {background-color: var(--color2);
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    color: var(--white)
+}
+
+.footer h4 {color: var(--white);}
+
+.footer .btn-primary {background-color: var(--color1);}
+/*.footer .btn-primary a {color: var(--color3);}
+.footer .btn-primary a:hover {color: var(--white);}*/
+.footer .btn-primary:hover {background-color: var(--color3);}
+
+.footer p a {color: var(--color4);
     text-decoration: none;
     font-weight: 600;
     font-style: italic;
@@ -115,5 +138,8 @@ footer p a {color: var(--color3);
 
 /**  RESPONSIVE BEGINS  **/
 @media screen and (max-width:568px) {
-
+    body p {font-size: 18px;}
+    .image-intro {min-height: 250px; max-height: 250px;
+        margin-bottom: 0;
+    }
 }

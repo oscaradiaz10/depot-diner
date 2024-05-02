@@ -8,6 +8,7 @@
     <?php include ("includes/links.php"); ?>
 </head>
 <body>
+    <?php include ("includes/contact-form.php"); ?>
 
     <nav class="navbar navbar-expand-md bg-light sticky-top">
         <div class="container">
@@ -24,10 +25,10 @@
                         <a class="nav-link" href="/menu.php">Our Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Job Opportunities</a>
+                        <a class="nav-link" href="/jobs.php">Job Opportunities</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary" type="button">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
             </div>
         </div>
     </nav>
@@ -53,7 +54,7 @@
     <div class="jumbotron spacer-top">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <h3>Hours</h3>
                     <p>Monday - Saturday<br />7:30 AM - 8:00 PM</p>
                         <hr class="mt-4"/>

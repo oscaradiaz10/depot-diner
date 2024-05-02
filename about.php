@@ -8,7 +8,8 @@
     <?php include ("includes/links.php"); ?>
 </head>
 <body>
-
+    <?php include ("includes/contact-form.php"); ?>
+    
     <nav class="navbar navbar-expand-md bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="/index.php"><img src="media/Depot Diner.png" width="210px" alt="logo"></a>
@@ -21,13 +22,13 @@
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Our Menu</a>
+                        <a class="nav-link" href="/menu.php">Our Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Job Opportunities</a>
+                        <a class="nav-link" href="/jobs.php">Job Opportunities</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary" type="button">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
             </div>
         </div>
     </nav>
@@ -39,7 +40,7 @@
     <div class="container spacer-top text-center">
         <div class="row justify-content-center">
             <div class="col-11">
-                <h1>This isn't your typical family-owned restaurant.</h1>
+                <h1>This isn't your typical family-owned restaurant </h1>
                 <p>The Depot Diner is a family-owned restaurant that offers a 1960s dining experience in one of the most unique spots on Table Rock Lake. Located next to Table Rock Airport, the diner sits just 200 feet from an airstrip that was originally built in 1962.</p>
                 <p>When Carol and Chuck Leininger, owners of the Depot Diner, bought a home near Lake Point Landing, they were inspired to not only bring the runway back to life but also open a quality restaurant and event center. Originally from Lincoln, Nebraska, the Leiningers love local places where friends meet and neighbors gather for a great meal and conversation. That's exactly what the Depot Diner brings to Golden, Missouri.</p>
             </div>

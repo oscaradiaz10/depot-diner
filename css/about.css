@@ -12,22 +12,26 @@
 
 .about-img-left {
     object-fit: cover;
-    height: 750px;
-    max-height: 750px;
+    height: 650px;
+    max-height: 650px;
     width: 135%;
     margin-left: -310px;
     margin-bottom: 150px;
     border-radius: 0 375px 375px 0;
     box-shadow: 15px 15px 25px var(--opacity1);
+    border: solid 2px var(--white);
+    overflow: hidden;
 }
 
 .about-img-right {
     object-fit: cover;
-    height: 750px;
-    max-height: 750px;
-    width: 135%;
-    margin-right: -320px;
+    height: 650px;
+    max-height: 650px;
+    width: 141%;
+    margin-right: -350px;
     margin-bottom: 150px;
     border-radius: 375px 0 0 375px;
     box-shadow: 15px 15px 25px var(--opacity1);
+    border: solid 2px var(--white);
+    overflow: hidden;
 } 
