@@ -61,6 +61,8 @@
         </div>
     </div>
 
+    <div class="spacer-top"></div>
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-4 col-sm-12">
@@ -72,6 +74,8 @@
             </div>
         </div>
     </div>
+
+    <div class="spacer-top"></div>
 
     <div class="container">
         <div class="row align-items-center">
@@ -86,6 +90,8 @@
         </div>
     </div>
 
+    <div class="spacer-top"></div>
+    
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-4 col-sm-12">

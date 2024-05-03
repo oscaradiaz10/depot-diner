@@ -40,7 +40,6 @@
             <div class="col-10">
                 <h1>Welcome to the Depot Diner</h1>
                 <p>We're a 1960s-inspired dining destination on Table Rock Lake. Located next to the Hangar at Point 25 and just 200 feet from a newly renovated runway, the Depot Diner is a fun spot to grab a great meal and watch small planes come and go.</p>
-
                 <p>We serve classic breakfast items, steaks, burgers, gourmet pizza, ice cream, and a delicious menu of desserts. So, stop on in. We'll be waiting with a hot grill, cold drinks, and friendly faces.</p>
             </div>
         </div>
@@ -51,16 +50,33 @@
         </div>        
     </div>
 
-    <div class="jumbotron spacer-top">
+    <div class="container food-cat spacer-top">
+        <div class="row g-2">  
+            <div class="col-4">
+                <h2 class="img-headers">Breakfast</h2>
+                <img class="img-columns" src="media/IMG_4795.jpeg" width="100%" alt="food 1">
+            </div>
+            <div class="col-4">
+                <h2 class="img-headers">Lunch</h2>
+                <img class="img-columns" src="media/IMG_4885.jpeg" width="100%" alt="food 2">
+            </div>
+            <div class="col-4">
+                <h2 class="img-headers">Dinner</h2>
+                <img class="img-columns" src="media/IMG_4656.jpeg" width="100%" alt="food 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <h3>Hours</h3>
                     <p>Monday - Saturday<br />7:30 AM - 8:00 PM</p>
-                        <hr class="mt-4"/>
+                        <hr class="mt-5"/>
                     <h3>Contact</h3>
                     <p>(417) 271-1090</p>
-                        <hr class="mt-4"/>
+                        <hr class="mt-5"/>
                     <h3>Follow Us</h3>
                     <div class="btn-group mt-3">
                         <button type="button" class="btn btn-primary"><a href="https://www.google.com" target="_blank">
@@ -84,14 +100,6 @@
             </div>
         </div>
     </div>
-
-    <section class="container">
-        <div class="row">  
-            <div class="col">
-                <img src="media/img_6898_jpg-crop-020522-120734.webp" width="100%" alt="side view">
-            </div>
-        </div>
-    </section>
 
     <?php include ("includes/footer.php"); ?>
 

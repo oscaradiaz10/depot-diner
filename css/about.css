@@ -35,3 +35,12 @@
     border: solid 2px var(--white);
     overflow: hidden;
 } 
+
+/**  RESPONSIVE BEGINS  **/
+@media screen and (max-width:568px) {
+    .about-img-left {max-height:400px;
+        width: 100%;
+        border-radius: 0 40px 60px 0;
+        margin: 0;
+    }
+}

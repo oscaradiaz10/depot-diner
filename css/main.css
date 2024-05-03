@@ -46,7 +46,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     color: var(--color1);
 }
 
-.btn-primary {background-color: var(--color2);
+.btn-primary {background-color: var(--color1);
     border-color: var(--color2);
     font-family: "Barlow", sans-serif;
     font-weight: 600;
@@ -59,10 +59,16 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     border-color: var(--color3);
 }
 
-.jumbotron {background-color: var(--opacity1);
-    padding-top: 50px;
+.jumbotron {background-color: var(--color2);
+    padding-top: 150px;
     bottom: -10px !important;
 }
+
+.jumbotron p, h3 {color: white;}
+
+.jumbotron .btn-primary {background-color: var(--white); color: var(--color3);}
+.jumbotron .btn-primary a {color: var(--color3);}
+.jumbotron .btn-primary:hover {background-color: rgba(255, 255, 255, .65);}
 
 .spacer-top {margin-top: 7rem;}
 
@@ -70,6 +76,23 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     min-height: 450px;
     max-height: 450px;
     margin-bottom: 100px;
+}
+
+.food-cat {margin-bottom: -60px;}
+
+.img-columns {object-fit: cover;
+    border-radius: 15px;
+    min-height: 400px; max-height: 400px;
+    z-index: -1;
+}
+
+.img-headers {background-image: url("media/bg-texture.webp");
+    color: var(--color4);
+    font-size: 68px;
+    margin: 0 0 -70px 15px;
+    position: relative;
+    letter-spacing: 4px;
+    text-shadow: var(--color1) 1px 0 10px;
 }
 
 .container-fluid {margin:0; padding: 0;}
@@ -84,7 +107,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 #demo .carousel-item:before {
     content: "";
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.65));
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
     display: block;
     position: absolute;
     top: 0;
@@ -116,7 +139,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 }
 
 /**  FOOTER BEGINS  **/
-.footer {background-color: var(--color2);
+.footer {background-color: var(--color1);
     margin-bottom: 50px;
     padding: 50px;
     border-radius: 10px;
@@ -125,10 +148,9 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 .footer h4 {color: var(--white);}
 
-.footer .btn-primary {background-color: var(--color1);}
-/*.footer .btn-primary a {color: var(--color3);}
-.footer .btn-primary a:hover {color: var(--white);}*/
-.footer .btn-primary:hover {background-color: var(--color3);}
+.footer .btn-primary {background-color: var(--white); color: var(--color3);}
+.footer .btn-primary a {color: var(--color3);}
+.footer .btn-primary:hover {background-color: rgba(255, 255, 255, .65);}
 
 .footer p a {color: var(--color4);
     text-decoration: none;

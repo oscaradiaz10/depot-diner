@@ -10,7 +10,7 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="media/img_6821-020522-121318.webp" alt="Los Angeles" class="d-block w-100">
+                <img src="media/img_6821.webp" alt="Front of Diner" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Where Friends Meet &amp;<br/>Neighbors Gather</h1>
                     <p>NOW OPEN<br/>Table Rock Lake, Golden, MO</p>
