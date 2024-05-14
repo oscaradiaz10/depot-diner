@@ -16,20 +16,20 @@
                     <p>NOW OPEN<br/>Table Rock Lake, Golden, MO</p>
                 </div>
             </div>
-            <!--<div class="carousel-item">
-                <img src="https://www.w3schools.com/bootstrap5/chicago.jpg" alt="Chicago" class="d-block w-100">
+            <div class="carousel-item">
+                <img src="media/louis-hansel-6gbr24z3h5c-unsplash.webp" alt="Menu" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h1>Depot Diner Specialties</h1>
+                    <p>Giving you a nostalgic, 1960s-style dining experience!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://www.w3schools.com/bootstrap5/ny.jpg" alt="New York" class="d-block w-100">
+                <img src="media/img_0123.webp" alt="Work" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h1>Come Work with Us!</h1>
+                    <p>Join our team.</p>
                 </div>
-            </div>-->
+            </div>
         </div>
       
         <!-- Left and right controls/icons -->

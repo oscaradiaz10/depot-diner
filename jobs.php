@@ -10,7 +10,7 @@
 <body>
     <?php include ("includes/contact-form.php"); ?>
     
-    <nav class="navbar navbar-expand-md bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="/index.php"><img src="media/Depot Diner.png" width="210px" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#">Job Opportunities</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
             </div>
         </div>
     </nav>

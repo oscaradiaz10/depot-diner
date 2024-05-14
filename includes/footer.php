@@ -6,7 +6,7 @@
                 <p style="margin-top:25px;"><a href="about.php">About Us</a></p>
                 <p><a href="menu.php">Our Menu</a></p>
                 <p><a href="jobs.php">Job Opportunities</a></p>
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
             </div>
             <div class="col">
                 <h4>Contact</h4>

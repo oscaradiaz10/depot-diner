@@ -10,46 +10,59 @@
     --bs-light-rgb: 255, 255, 255;
 }
 
-.about-img-left {
-    object-fit: cover;
-    height: 650px;
-    max-height: 650px;
-    width: 135%;
-    margin-left: -310px;
-    margin-bottom: 150px;
-    border-radius: 0 375px 375px 0;
-    box-shadow: 15px 15px 25px var(--opacity1);
-    border: solid 2px var(--white);
-    overflow: hidden;
+.about-sections {
+    min-height: 550px;
 }
 
-.about-img-right {
-    object-fit: cover;
-    height: 650px;
-    max-height: 650px;
-    width: 141%;
-    margin-right: -350px;
-    margin-bottom: 150px;
-    border-radius: 375px 0 0 375px;
-    box-shadow: 15px 15px 25px var(--opacity1);
-    border: solid 2px var(--white);
-    overflow: hidden;
+.about-img {object-fit: cover;
+    position: absolute;
+    height: 500px;
+    max-height: 500px;
+    width: 64%;
+    right: 0;
+    border-radius: 250px 0 0 250px;
+    box-shadow: -15px 15px 25px var(--opacity1);
+    border: solid 3px var(--white);
+    z-index: 10;
 } 
 
 /**  RESPONSIVE BEGINS  **/
-@media screen and (max-width:568px) {
-
-    .about-img-left {max-height:280px;
-        width: 100%;
-        border-radius: 10px;
-        margin: 0;
+@media screen and (max-width:992px) {
+    .about-img {
+        position: absolute;
+        width: 50%;
+        max-height: 440px;
+        border-radius: 250px 0 0 250px;
+        border: solid 3px var(--white);
+        margin-bottom: 15px;
     }
 
-    .about-img-right {max-height:280px;
-        width: 100%;
-        border-radius: 10px;
-        margin: 0;
+    .about-sections {
+        min-height: 460px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .about-img {
+        position: relative;
+        width:100%;
+        max-height: 320px;
+        border-radius: 20px;
+        border: solid 3px var(--white);
+        margin-bottom: 15px;
     }
 
-    .about-img-left > h3 {margin-top: 10px;}
+    .about-sections {
+        min-height: 400px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .about-img {
+        max-height: 230px;
+        border-radius: 15px;
+        border: solid 2px var(--white);
+    }    
 }

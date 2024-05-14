@@ -10,7 +10,7 @@
 <body>
     <?php include ("includes/contact-form.php"); ?>
 
-    <nav class="navbar navbar-expand-md bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="media/Depot Diner.png" width="210px" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="/jobs.php">Job Opportunities</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Contact Us</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
             </div>
         </div>
     </nav>
@@ -45,7 +45,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <button class="btn btn-primary" type="button">View Our Menu</button>
+            <button class="btn btn-primary" type="button"><a href="/menu.php">VIEW OUR MENU</a></button>
             </div>
         </div>        
     </div>
@@ -95,8 +95,20 @@
                 </div>
                 <div class="col-8">
                     <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="450" style="border: 0; margin-bottom: -6px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="475" style="border: 1px solid #adadad; margin-bottom: -30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="spacer-top"></div>
+
+    <div class="card shadow">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-7">
+                <h3>Work With Us</h3>
+                <p>Looking for a job working with friendly people in a fast and fun environment?<br/>We're currently hiring!</p>
+                <button class="btn btn-primary" type="button"><a href="/jobs.php">VIEW OPENINGS</a></button>
             </div>
         </div>
     </div>
