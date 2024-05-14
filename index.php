@@ -115,6 +115,6 @@
 
 
     <?php include ("includes/footer.php"); ?>
-
+    <!-- As of 5.12.24 -->
 </body>
 </html>
