@@ -4,7 +4,7 @@
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">
-        <form action="/action_page.php">
+        <form method="post" action="/includes/sendmail.php" id="contact-form">
             <div class="mb-3 mt-3">
                 <label for="name" class="form-label">Name:</label>
                 <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
@@ -17,9 +17,11 @@
                 <label for="phone" class="form-label">Phone Number:</label>
                 <input type="phone" class="form-control" id="phone" placeholder="Enter a valid phone numer" name="phone">
             </div>
-            <label for="comment">Comments:</label>
-            <textarea class="form-control" rows="5" id="comment" name="text" style="margin-bottom: 30px;"></textarea>
+            <label for="message">Comments:</label>
+            <textarea class="form-control" rows="5" id="message" name="text" style="margin-bottom: 30px;"></textarea>
             <button type="submit" class="btn btn-primary">SUBMIT</button>
         </form>
     </div>
 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>

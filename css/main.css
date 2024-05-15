@@ -86,7 +86,6 @@ body a {text-decoration: none;
 }
 
 .navbar-brand:active {transform: scale(0.96);}
-    
 
 .offcanvas.show:not(.hiding), .offcanvas.showing {width: 550px;}
 
@@ -188,6 +187,11 @@ overflow: hidden;
     width:60%;
     margin: 0 auto;
     text-align: center;
+}
+
+.careers {background-color: var(--white);
+    padding: 40px 40px 50px;
+    border-radius: 10px;
 }
 
 /**  FOOTER BEGINS  **/
