@@ -6,6 +6,7 @@
     <!--  Main Styling  -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon.png">
 
     <!--  Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -19,7 +19,7 @@
             </div>
             <label for="comment">Comments:</label>
             <textarea class="form-control" rows="5" id="comment" name="text" style="margin-bottom: 30px;"></textarea>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
         </form>
     </div>
 </div>

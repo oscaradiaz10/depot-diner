@@ -11,23 +11,27 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="media/img_6821.webp" alt="Front of Diner" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Where Friends Meet &amp;<br/>Neighbors Gather</h1>
-                    <p>NOW OPEN<br/>Table Rock Lake, Golden, MO</p>
+                    <p>Table Rock Lake, Golden, MO</p>
+                    <button class="btn btn-primary" type="button"><a href="https://www.google.com/maps/dir//Depot+Diner+%2F+Hangar+at+Point+25+23032+Brushy+Ln+Golden,+MO+65658/@36.5284798,-93.6753165,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87ced547a5fe1c59:0x8baed86b321327c5" target="_blank">COME SEE US!</a></button>
+                    
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="media/louis-hansel-6gbr24z3h5c-unsplash.webp" alt="Menu" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Depot Diner Specialties</h1>
-                    <p>Giving you a nostalgic, 1960s-style dining experience!</p>
+                    <p>Giving you a nostalgic, 1960's style dining experience!</p>
+                    <button class="btn btn-primary" type="button"><a href="/menu.php">VIEW OUR MENU</a></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="media/img_0123.webp" alt="Work" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Come Work with Us!</h1>
-                    <p>Join our team.</p>
+                    <p>Join Our Team</p>
+                    <button class="btn btn-primary" type="button"><a href="/jobs.php">JOB OPENINGS</a></button>
                 </div>
             </div>
         </div>

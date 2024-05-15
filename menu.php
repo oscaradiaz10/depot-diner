@@ -37,7 +37,7 @@
         <img class="image-intro" src="media/louis-hansel-6gbr24z3h5c-unsplash.webp" alt="DD insde" width="100%">
     </div>
 
-    <div class="container spacer-top text-center">
+    <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-11">
                 <h1>Depot Diner Specialties</h1>

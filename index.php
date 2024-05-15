@@ -51,28 +51,28 @@
     </div>
 
     <div class="container food-cat spacer-top">
-        <div class="row g-2">  
+        <div class="row g-3 img-column-images">  
             <div class="col-lg-4 col-sm-12">
-                <h2 class="img-headers">Breakfast</h2>
+                <!-- <h2 class="img-headers">Breakfast</h2> -->
                 <img class="img-columns" src="media/IMG_4795.jpeg" width="100%" alt="food 1">
             </div>
             <div class="col-lg-4 col-sm-12">
-                <h2 class="img-headers">Lunch</h2>
+                <!-- <h2 class="img-headers">Lunch</h2> -->
                 <img class="img-columns" src="media/IMG_4885.jpeg" width="100%" alt="food 2">
             </div>
             <div class="col-lg-4 col-sm-12">
-                <h2 class="img-headers">Dinner</h2>
+                <!-- <h2 class="img-headers">Dinner</h2> -->
                 <img class="img-columns" src="media/IMG_4656.jpeg" width="100%" alt="food 3">
             </div>
         </div>
     </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron contact-info">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <h3>Hours</h3>
-                    <p>Monday - Saturday<br />7:30 AM - 8:00 PM</p>
+                    <p><strong>Monday - Saturday</strong><br />7:30 AM - 8:00 PM</p>
                         <hr class="mt-5"/>
                     <h3>Contact</h3>
                     <p>(417) 271-1090</p>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-8">
                     <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="475" style="border: 1px solid #adadad; margin-bottom: -30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="475" style="border: 1px solid var(-color4); margin-bottom: -50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -103,18 +103,15 @@
     
     <div class="spacer-top"></div>
 
-    <div class="card shadow">
-        <div class="row justify-content-md-center">
-            <div class="col-lg-7">
+    <div class="card shadow justify-content-md-center">
+        <div class="card-body">
                 <h3>Work With Us</h3>
-                <p>Looking for a job working with friendly people in a fast and fun environment?<br/>We're currently hiring!</p>
+                <p>Looking for a job working with friendly people in a fast and fun environment?</p>
+                <p><em>We're currently hiring!</em></p>
                 <button class="btn btn-primary" type="button"><a href="/jobs.php">VIEW OPENINGS</a></button>
-            </div>
         </div>
     </div>
 
-
     <?php include ("includes/footer.php"); ?>
-    <!-- As of 5.12.24 -->
 </body>
 </html>

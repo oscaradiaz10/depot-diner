@@ -1,9 +1,10 @@
 :root {
-    --color1: rgb(152, 70, 85);
-    --color2: rgb(109, 169, 215);
-    --color3: rgb(56, 64, 81);
-    --color4: rgb(207, 179, 126);
+    --color1: rgb(171, 42, 61);
+    --color2: rgb(217, 136, 89);
+    --color3: rgb(49, 64, 53);
+    --color4: rgb(231, 228, 215);
     --white: rgb(255,255,255);
+    --black: rbg(10, 10, 10);
     --opacity1: rgba(152, 70, 85, .15);
     --bs-body-font-size: 1.12rem;
     --bs-primary-rgb: 225, 225, 225;
@@ -11,8 +12,20 @@
     --bs-offcanvas-width: 600px;
 }
 
+@keyframes hover-effect {
+    0%   {opacity: 1; right: 0px}
+    50%  {opacity: .75; right: 50px;}
+    100% {opacity: 1; right: 0px;}
+}
+
+@keyframes fadeIn {
+    0%   {opacity: .45; word-spacing: 0px;}
+    100% {opacity: 1; word-spacing: 12px;}
+}
+
 body {background-color: var(--color4) !important;
-    color: black;
+    color: var(--black);
+    background-image: url("/media/bg-texture.png");
 }
 
 body p {font-family: "Barlow", sans-serif;
@@ -41,7 +54,9 @@ body a {text-decoration: none;
 }
 
 /* --- NAVBAR BEGINS --- */
-.navbar {box-shadow: 5px 5px 25px #adadad;}
+.navbar {box-shadow: 5px 5px 25px var(--opacity1);
+    border-bottom: #858585; 1px solid;
+}
 
 .navbar-nav li a {text-decoration: none;
     text-transform: uppercase;
@@ -63,25 +78,17 @@ body a {text-decoration: none;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
-  }
+}
   
-  .navbar-nav li a:hover::before {
+.navbar-nav li a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-  }
+}
+
+.navbar-brand:active {transform: scale(0.96);}
+    
 
 .offcanvas.show:not(.hiding), .offcanvas.showing {width: 550px;}
-
-@keyframes hover-effect {
-    0%   {opacity: 1; right: 0px}
-    50%  {opacity: .75; right: 50px;}
-    100% {opacity: 1; right: 0px;}
-}
-
-@keyframes fadeIn {
-    0%   {opacity: .45; word-spacing: 0px;}
-    100% {opacity: 1; word-spacing: 12px;}
-}
 
 h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     font-optical-sizing: auto;
@@ -95,12 +102,15 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 overflow: hidden;
 }
 
-.jumbotron {background-color: var(--color2);
+.contact-info {background-color: var(--color3);
+    background-image: url("/media/bg-texture.png");
     padding-top: 150px;
     bottom: -10px !important;
 }
 
-.jumbotron p {color: white;}
+.contact-info p, .contact-info h3 {color: white;}
+
+.contact-info hr {border-color: var(--white);}
 
 .spacer-top {margin-top: 7rem;}
 
@@ -114,17 +124,20 @@ overflow: hidden;
 
 .img-columns {object-fit: cover;
     border-radius: 15px;
-    min-height: 400px; max-height: 400px;
+    min-height: 440px; max-height: 440px;
     z-index: -1;
+    box-shadow: -10px -10px 25px var(--opacity1);
+    border: solid 5px var(--color4);
 }
 
 .img-headers {background-image: url("media/bg-texture.webp");
-    color: var(--color4);
-    font-size: 68px;
-    margin: 0 0 -70px 15px;
+    color: var(--color2);
+    font-size: 38px;
+    margin: 0 0 -50px 15px;
     position: relative;
     letter-spacing: 4px;
     text-shadow: var(--color4) 1px 0 10px;
+    text-align: center;
 }
 
 .container-fluid {margin:0; padding: 0;}
@@ -139,7 +152,7 @@ overflow: hidden;
 
 #demo .carousel-item:before {
     content: "";
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
+    background-image: linear-gradient(to bottom, transparent, rgba(65, 65, 65, .85));
     display: block;
     position: absolute;
     top: 0;
@@ -147,18 +160,19 @@ overflow: hidden;
     height: 100vh;
   }
 
-.carousel-caption {top: 10rem;
+.carousel-caption {top: 4rem;
     text-align: left;
     left: 11%;
-    opacity: .9;
+    opacity: 1;
 }
 
-.carousel-caption h1 {font-size: 6rem;
+.carousel-caption h1 {font-size: 5.5rem;
     letter-spacing: .25rem;
     word-spacing: 12px;
     transition: 2s;
     color: var(--color1);
     animation: fadeIn 2s;
+    text-shadow: var(--white) 1px 0 20px;
 }
 
 .carousel-caption p {font-size: 1.75rem;
@@ -170,41 +184,100 @@ overflow: hidden;
     top: -11.5vw;
 }
 
+.card {padding: 30px;
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /**  FOOTER BEGINS  **/
 .footer {background-color: var(--color1);
+    width: 100%;
+    margin-top: 100px;
     margin-bottom: 50px;
     padding: 50px;
     border-radius: 10px;
     color: var(--white)
 }
 
+.footer ul {list-style-type: none;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
 .footer h4 {color: var(--white);}
 
-.footer .btn-primary {background-color: var(--white); color: var(--color3); border: var(--white)}
+.footer .btn-primary {background-color: var(--white); color: var(--color3); border: var(--white);
+    font-weight: 600;
+}
+
 .footer .btn-primary a {color: var(--color3);}
+
 .footer .btn-primary:hover {background-color: rgba(255, 255, 255, .65);}
 
-.footer p a {color: var(--color4);
+.footer p a {color: var(--white);
     text-decoration: none;
     font-weight: 600;
     font-style: italic;
 }
 
 /**  RESPONSIVE BEGINS  **/
-@media screen and (max-width:568px) {
-    body p {font-size: 18px;
+@media screen and (max-width: 992px) { /* LG */
+    .carousel-caption h1 {font-size: 3.5rem;}
+
+    .img-columns {min-height: 320px; max-height: 320px;
+        box-shadow: -5px -5px 15px var(--opacity1);
+    }
+}
+
+@media screen and (max-width:768px) { /* MD */
+
+    #demo .carousel-item img {height:55vh;}
+    
+    .carousel-caption h1 {font-size: 2.75rem;}
+    
+    .carousel-caption p {font-size: 1.45rem;}
+
+    .img-columns {min-height: 280px; max-height: 280px;
+    }
+
+    .card {width: 80%;}
+
+    .footer {width: 100%;
+        padding:20px;
+        margin: 25px auto 25px;
         text-align: center;
     }
-
-    h1, h2, h3, h4, h5 {text-align: center;}
     
-    .btn-primary {margin: 0 auto;}
+    .footer .btn-primary {margin-bottom: 30px;}
 
-    .image-intro {min-height: 250px; max-height: 250px;
-        margin-bottom: 0;
+    .footer li {display: inline;
+        padding: 0 9px;
+        margin-top: 15px;
     }
+}
 
-    .img-columns {min-height: 250px; max-height: 250px;
-        border-radius: 10px;
+@media screen and (max-width:576px) { /* SM */
+    body p {font-size: 18px;}
+
+    #demo .carousel-item img {height:45vh;}
+    
+    .carousel-caption h1 {font-size: 2.5rem;}
+    
+    .carousel-caption p {font-size: 1.25rem;}
+
+    .image-intro {min-height: 200px;
+        max-height: 200px;
+        margin-bottom: 50px;}
+
+    .img-columns {min-height: 240px; max-height: 240px;}
+
+    .card {width: 90%;}
+
+    .footer {width: 90%;
+        padding:20px;
+        margin: 25px auto 25px;
     }
 }

@@ -37,7 +37,7 @@
         <img class="image-intro" src="media/shutterstock_581655208-lr-020522-120734.webp" alt="DD insde" width="100%">
     </div>
 
-    <div class="container spacer-top text-center">
+    <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-11">
                 <h1>Love Where You Work</h1>
@@ -46,9 +46,17 @@
         </div>
     </div>
 
+    <div class="spacer-top"></div>
+    
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <h2>Currently Hiring:</h3>
+        <div class="row">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Currently Hiring:</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
