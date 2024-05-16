@@ -12,7 +12,7 @@
             <div class="carousel-item active">
                 <img src="media/img_6821.webp" alt="Front of Diner" class="d-block w-100">
                 <div class="carousel-caption d-md-block">
-                    <h1>Where Friends Meet &amp;<br/>Neighbors Gather</h1>
+                    <h1>Where Friends Meet &amp; Neighbors Gather</h1>
                     <p>Table Rock Lake, Golden, MO</p>
                     <button class="btn btn-primary" type="button"><a href="https://www.google.com/maps/dir//Depot+Diner+%2F+Hangar+at+Point+25+23032+Brushy+Ln+Golden,+MO+65658/@36.5284798,-93.6753165,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87ced547a5fe1c59:0x8baed86b321327c5" target="_blank">COME SEE US!</a></button>
                     

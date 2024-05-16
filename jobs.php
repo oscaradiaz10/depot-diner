@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Depot Diner - About Us</title>
+    <title>Depot Diner - Job Opportunities</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -66,8 +66,8 @@
 
     <div class="container spacer-top">
         <div class="row">
-            <hr>
-            <h2><i class="bi bi-arrow-down-circle"></i> Apply Now!</h3>
+            <hr style="margin-bottom: 5%;"/>
+            <h2 style="margin-bottom: 30px;"><i class="bi bi-arrow-down-circle"></i> Apply Now!</h3>
             <div class="col">
                 <form method="post" action="/includes/sendmail.php" id="contact-form">
                     <div class="row">
@@ -110,20 +110,20 @@
                                 </div>
                             </div>
                         </div>
-                        <hr />
+                        <hr style="margin: 5% 0;"/>
                         <div class="col-lg-4 col-md-12">
-                            <label for="experience">Tell us your work experience:</label>
-                            <textarea class="form-control" rows="3" id="experience" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <label for="experience">Tell us your work experience!</label>
+                            <textarea class="form-control" rows="4" id="experience" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <label for="why">Why do you want to work at Depot Diner?</label>
-                            <textarea class="form-control" rows="3" id="why" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="4" id="why" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <label for="favorite">What's your favorite diner food?</label>
-                            <textarea class="form-control" rows="3" id="favorite" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="4" id="favorite" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
-                        <hr/>
+                        <hr style="margin: 5% 0;"/>
                         <div class="col-lg-4">
                             <label for="license" class="form-label">Do you have a valid drivers license?</em></label>
                             <div class="mb-4">
@@ -139,13 +139,13 @@
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <label for="commute">What's the distance of your commute?</label>
-                            <textarea class="form-control" rows="2" id="commute" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="3" id="commute" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <label for="start">How soon can you start? </label>
-                            <textarea class="form-control" rows="2" id="start" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="3" id="start" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
-                        <hr/>
+                        <hr style="margin: 5% 0;"/>
                         <div class="col-lg-4 col-md-12">
                             <label for="shift" class="form-label">What's your shift availability? <em>(Select all that apply)</em></label>
                             <div class="mb-4">
@@ -168,10 +168,10 @@
                             <textarea class="form-control" rows="3" id="meet" name="text" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
                     </div>                    
-                    <button type="submit" class="btn btn-primary" style="margin-bottom: 30px;">SUBMIT FORM</button>
+                    <button type="submit" class="btn btn-primary">SUBMIT FORM</button>
                 </form>
             </div>
-            <hr/>
+            <hr style="margin-top: 5%;"/>
         </div>    
     </div>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Depot Diner at Table Rock Lake</title>
+    <title>Depot Diner - Our Menu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,8 +44,14 @@
                 <p>Our location and menu were designed hand-in-hand to give you a nostalgic, 1960s-style dining experience. We're serving some of the best breakfast plates this side of Table Rock Lake, as well as grilled Certified Angus Beef burgers that are always fresh, never frozen. We also have gourmet pizza, ice cream, and a delicious assortment of homemade desserts.</p>
                 <p>Around here, we treat you like family, which is why we use the highest quality ingredients, served with a smile.</p>
             </div>
+            <hr style="margin: 5% 0;"/>
+            <div class="col-12">
+                <iframe src="/media/Menu_v13_new.pdf" frameborder="0" width="100%" height="1130px"></iframe>
+            </div>
         </div>       
     </div>
+
+
 
     <?php include ("includes/footer.php"); ?>
 
