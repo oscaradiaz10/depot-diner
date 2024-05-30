@@ -1,15 +1,8 @@
 :root {
-<<<<<<< Updated upstream
     --color1: rgb(171, 42, 61);
     --color2: rgb(217, 136, 89);
     --color3: rgb(49, 64, 53);
-    --color4: rgb(231, 228, 215);
-=======
-    --color1: rgb(152, 70, 85);
-    --color2: rgb(69, 85, 97);
-    --color3: rgb(34, 50, 61);
-    --color4: rgb(253, 250, 250);
->>>>>>> Stashed changes
+    --color4: rgb(240, 239, 235);
     --white: rgb(255,255,255);
     --black: rbg(10, 10, 10);
     --opacity1: rgba(152, 70, 85, .15);
@@ -33,6 +26,7 @@
 body {background-color: var(--color4) !important;
     color: var(--black);
     background-image: url("/media/bg-texture.png");
+    background-opacity:
 }
 
 body p {font-family: "Barlow", sans-serif;
