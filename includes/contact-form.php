@@ -4,7 +4,7 @@
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">
-        <form method="post" action="/includes/sendmail.php" id="contact-form">
+        <form method="post" action="/includes/sendmail.php" id="contactForm" novalidate>
             <div class="mb-3 mt-3">
                 <label for="name" class="form-label">Name:</label>
                 <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
@@ -19,9 +19,12 @@
             </div>
             <label for="message">Comments:</label>
             <textarea class="form-control" rows="5" id="message" name="text" style="margin-bottom: 30px;"></textarea>
-            <button type="submit" class="btn btn-primary">SUBMIT</button>
+            <button type="submit" value="Send" class="btn btn-primary">SUBMIT</button>
         </form>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>

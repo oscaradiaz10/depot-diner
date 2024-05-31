@@ -6,6 +6,7 @@ $errorMessage = '';
 if (!empty($_POST)) {
    $name = $_POST['name'];
    $email = $_POST['email'];
+   $phone = $_POST['phone'];
    $message = $_POST['message'];
 
    if (empty($name)) {
@@ -18,20 +19,24 @@ if (!empty($_POST)) {
        $errors[] = 'Email is invalid';
    }
 
+   if (empty($phone)) {
+    $errors[] = 'Phone number is empty';
+    }
+
    if (empty($message)) {
        $errors[] = 'Message is empty';
    }
 
    if (empty($errors)) {
        $toEmail = 'oscar.di@me.com';
-       $emailSubject = 'New email from your contact form';
+       $emailSubject = 'New Message from Depot Diner Contact Form';
        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
-       $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
+       $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Phone: {$phone}", "Message:", $message];
        $body = join(PHP_EOL, $bodyParagraphs);
 
        if (mail($toEmail, $emailSubject, $body, $headers)) {
 
-           header('Location: thank-you.html');
+           header('Location: index.php');
        } else {
            $errorMessage = 'Oops, something went wrong. Please try again later';
        }

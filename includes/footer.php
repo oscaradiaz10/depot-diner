@@ -2,7 +2,7 @@
     <div class="container footer">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="media/Depot Diner White.png" alt="DD Logo" width="230">
+                <img src="media/Depot Diner White.png" alt="DD Logo" width="230" style="margin-bottom: 20px;">
                 <ul>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="menu.php">Our Menu</a></li>
