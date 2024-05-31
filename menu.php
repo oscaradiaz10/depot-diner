@@ -25,7 +25,10 @@
                         <a class="nav-link" href="#">Our Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/jobs.php">Job Opportunities</a>
+                        <a class="nav-link" href="/jobs.php">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gotab.io/loc/depotdiner/spot/to-go/order/.9bpF0diqB8wqvqMclKDFP7Bw" target="_blank">Order Online</a>
                     </li>
                 </ul>
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
@@ -34,7 +37,7 @@
     </nav>
 
     <div class="container-fluid">
-        <img class="image-intro" src="media/louis-hansel-6gbr24z3h5c-unsplash.webp" alt="DD insde" width="100%">
+        <img class="image-intro" src="media/IMG_4490.jpg" alt="DD insde" width="100%">
     </div>
 
     <div class="container text-center">

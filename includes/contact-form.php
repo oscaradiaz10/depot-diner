@@ -1,6 +1,6 @@
 <div class="offcanvas offcanvas-end" id="contact">
     <div class="offcanvas-header">
-        <h2 class="offcanvas-title">How Can We Serve You?</h2>
+        <h2 class="offcanvas-title">How Can We Help  You?</h2>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">

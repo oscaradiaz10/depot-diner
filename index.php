@@ -25,7 +25,10 @@
                         <a class="nav-link" href="/menu.php">Our Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/jobs.php">Job Opportunities</a>
+                        <a class="nav-link" href="/jobs.php">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gotab.io/loc/depotdiner/spot/to-go/order/.9bpF0diqB8wqvqMclKDFP7Bw" target="_blank">Order Online</a>
                     </li>
                 </ul>
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
@@ -33,7 +36,27 @@
         </div>
     </nav>
 
-    <?php include ("includes/gallery.php"); ?>
+    <!-- Video -->
+    <div id="videowrapper">
+        <div id="fullScreenDiv">
+            <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
+                <source src="media/min_DD-video.mp4" type="video/mp4">
+            </video> 
+        </div>
+    </div>
+
+    <div id="myVideo" class="container-fluid">
+        <div class="container vid-description">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Where Friends Meet &amp; Neighbors Gather</h1>  
+                    <p>Table Rock Lake, Golden, MO</p>
+                    <button class="btn btn-primary" type="button"><a href="https://www.google.com/maps/dir//Depot+Diner+%2F+Hangar+at+Point+25+23032+Brushy+Ln+Golden,+MO+65658/@36.5284798,-93.6753165,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87ced547a5fe1c59:0x8baed86b321327c5" target="_blank">COME SEE US!</a></button>
+                    <button class="btn btn-primary" type="button"><a href="/menu.php">VIEW MENU</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container spacer-top text-center">
         <div class="row justify-content-center">
@@ -113,5 +136,18 @@
     </div>
 
     <?php include ("includes/footer.php"); ?>
+
+    <script>
+    window.addEventListener('load', function(){
+    var newVideo = document.getElementById('#myVideo');
+    newVideo.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+
+    newVideo.play();
+
+    });
+    </script>
 </body>
 </html>

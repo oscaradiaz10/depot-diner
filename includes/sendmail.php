@@ -1,51 +1,72 @@
 <?php
+	if ($_POST) {
+		$error = array();
+		$alert = array();
 
-$errors = [];
-$errorMessage = '';
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$phone = $_POST['phone'];
+		$message = $_POST['message'];
 
-if (!empty($_POST)) {
-   $name = $_POST['name'];
-   $email = $_POST['email'];
-   $phone = $_POST['phone'];
-   $message = $_POST['message'];
+ 
+		if (empty($name)) {
+			$error['name'] = "*Type your name please!";
+		}
 
-   if (empty($name)) {
-       $errors[] = 'Name is empty';
-   }
+		if (empty($email)) {
+			$error['email'] = "*Add a valid email addres";
+		}
 
-   if (empty($email)) {
-       $errors[] = 'Email is empty';
-   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       $errors[] = 'Email is invalid';
-   }
+		if (empty($phone)) {
+			$error['phone'] = "*Add a phone number";
+		}
 
-   if (empty($phone)) {
-    $errors[] = 'Phone number is empty';
-    }
+		if (empty($message)) {
+			$error['message'] = "* Please add a message";
+		}
 
-   if (empty($message)) {
-       $errors[] = 'Message is empty';
-   }
 
-   if (empty($errors)) {
-       $toEmail = 'oscar.di@me.com';
-       $emailSubject = 'New Message from Depot Diner Contact Form';
-       $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
-       $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Phone: {$phone}", "Message:", $message];
-       $body = join(PHP_EOL, $bodyParagraphs);
+		// Database codes go here!
+		// $link = mysql_connect('localhost', 'root', '12345678', 'logged_in');
 
-       if (mail($toEmail, $emailSubject, $body, $headers)) {
+		// $sql = "INSERT INTO table_2 (name, email, password, comment) VALUES ('$username', '$email', '$password', '$comment')";
 
-           header('Location: index.php');
-       } else {
-           $errorMessage = 'Oops, something went wrong. Please try again later';
-       }
+		// $result = mysql_query($link, $sql);
 
-   } else {
+		// if ($result) {
+		// 	echo "Data inserted successfully!";
+		// } else {
+		// 	echo "Connection error " . mysql_erro();
+		// }
 
-       $allErrors = join('<br/>', $errors);
-       $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-   }
-}
 
+		// If there's no error, then insert the datas!
+		if (!$error) {
+			// define('db_username', 'root');
+	  //   	define('db_password', '');
+	  //   	define('db_name', 'php_form_validation');
+	  //   	define('db_host', 'localhost');
+
+			$host = 'localhost';
+			$db_user = 'root';
+			$db_password = '';
+			$db_name = 'php_form_validation';
+
+			$link = mysqli_connect($host, $db_user, $db_password, $db_name);
+
+			$sql = "INSERT INTO table_1 (name, email, password, comment) VALUES ('$username', '$email', '$password', '$comment')";
+
+			mysqli_query($link, $sql);
+
+			header('location: connection.php');
+
+			// echo '<script type="text/javascript">alert("Your datas have been inserted successfully!");</script>';
+
+			// So that after submitting the form, the input fileds of name & email remain blank again!
+			// $_POST['name'] = "";
+			// $_POST['email'] = "";
+
+		}
+
+	}
 ?>
