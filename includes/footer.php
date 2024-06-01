@@ -1,14 +1,15 @@
 <!--  FOOTER BEGINS  -->
     <div class="container footer">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <img src="media/Depot Diner White.png" alt="DD Logo" width="230" style="margin-bottom: 20px;">
                 <ul>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="menu.php">Our Menu</a></li>
-                    <li><a href="jobs.php">Job Opportunities</a></li>
+                    <li><a href="jobs.php">Careers</a></li>
+                    <li><a class="nav-link" href="https://gotab.io/loc/depotdiner/spot/to-go/order/.9bpF0diqB8wqvqMclKDFP7Bw" target="_blank">Order Online</a></li>
                 </ul>
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">CONTACT US</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact" style="margin-top: 20px;">CONTACT US</button>
             </div>
             <div class="col-lg-4 col-md-6">
                 <h4>Contact</h4>
@@ -17,7 +18,7 @@
                 <h4>Location</h4>
                 <p><a href="https://www.google.com/maps/place/23032+Brushy+Ln,+Golden,+MO+65658/@36.5284841,-93.6775052,17z/data=!3m1!4b1!4m5!3m4!1s0x87ced5c3ac141757:0x76a6c3df4bb4eca2!8m2!3d36.5284798!4d-93.6753165" target="_blank">23032 Brushy Lane, Golden, MO 65658</a></p>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <h4>Follow Us!</h4>
                 <div class="btn-group mt-3">
                     <button type="button" class="btn btn-primary"><a href="https://www.google.com" target="_blank">

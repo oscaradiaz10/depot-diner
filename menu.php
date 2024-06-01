@@ -49,7 +49,9 @@
             </div>
             <hr style="margin: 5% 0;"/>
             <div class="col-12">
-                <iframe src="/media/Menu_v13_new.pdf" frameborder="0" width="100%" height="1130px"></iframe>
+                <div class="menu-container">
+                    <iframe class="responsive-menu" src="/media/Menu_v13_new.pdf" frameborder="0"></iframe>
+                </div>
             </div>
         </div>       
     </div>

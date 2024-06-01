@@ -94,7 +94,7 @@
     <div class="container-fluid about-sections">
         <div class="row">
             <div class="col-12">
-                <img class="about-img" src="media/shutterstock_581655208-lr.webp" alt="Hangar">
+                <img class="about-img" src="media/IMG_4885.jpeg" alt="Hangar">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
@@ -114,7 +114,7 @@
     <div class="container-fluid about-sections">
         <div class="row">
             <div class="col-12">
-                <img class="about-img" src="media/img_0123.webp" alt="Hangar">
+                <img class="about-img" src="media/IMG_4392.JPG" alt="Hangar">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
