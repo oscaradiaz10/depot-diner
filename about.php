@@ -75,7 +75,7 @@
     <div class="container-fluid about-sections">
         <div class="row">
             <div class="col-12">
-                <img class="about-img" src="media/ariel-1.webp" alt="Hangar">
+                <img class="about-img" src="media/IMG_7977.JPG" alt="Hangar">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">

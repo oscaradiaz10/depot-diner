@@ -140,10 +140,13 @@ overflow: hidden;
     text-align: center;
 }
 
-.container-fluid {margin:0; padding: 0;}
+.container-fluid {margin:0; padding: 0; 
+    width: 100vw;
+    overflow: hidden;
+}
 
 /** CAROUSEL BEGINS **/
-#demo .carousel-item img {  
+/* #demo .carousel-item img {  
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -177,7 +180,7 @@ overflow: hidden;
 
 .carousel-caption p {font-size: 1.75rem;
     font-weight: bold;
-}
+} */
 
 /** Video Starts Here **/ 
 #videowrapper {position: relative; overflow: hidden;}
@@ -334,15 +337,22 @@ overflow: hidden;
 @media screen and (max-width:576px) { /* SM */
     body p {font-size: 18px;}
 
+    .spacer-top {margin-top: 2.5rem;}
+
     #videowrapper {height: 35vh;}
 
     #fullScreenDiv {height:100vh;}
     
     .vid-description {margin-top: -230px;
-        padding: 0 5% 0;
+        padding: 0 3% 0 0;
+        width: 100vw;
+        overflow: hidden;
     }
 
-    .vid-description h1 {font-size: 2.15rem;}
+    .vid-description h1 {font-size: 2.1rem;
+        line-height: 1;
+        text-shadow: var(--white) 1px 0 10px;
+    }
     
     .vid-description p {font-size: 1.25rem;}
 
@@ -352,7 +362,10 @@ overflow: hidden;
 
     .img-columns {min-height: 240px; max-height: 240px;}
 
-    .card {width: 90%;}
+    .card {width: 80%;
+        margin-top: 80px}
+
+    .contact-info {margin-bottom: 40px;}
 
     .footer {width: 90%;
         padding:20px;

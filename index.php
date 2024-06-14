@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div class="container spacer-top text-center">
+    <main class="container spacer-top text-center">
         <div class="row justify-content-center">
             <div class="col-10">
                 <h1>Welcome to the Depot Diner</h1>
@@ -71,7 +71,7 @@
             <button class="btn btn-primary" type="button"><a href="/menu.php">VIEW OUR MENU</a></button>
             </div>
         </div>        
-    </div>
+    </main>
 
     <div class="container food-cat spacer-top">
         <div class="row g-3 img-column-images">  
@@ -116,7 +116,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
+                    <hr class="mt-5"/>
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="475" style="border: 1px solid var(-color4); margin-bottom: -50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -124,8 +125,6 @@
         </div>
     </div>
     
-    <div class="spacer-top"></div>
-
     <div class="card shadow justify-content-md-center">
         <div class="card-body">
                 <h3>Work With Us</h3>
