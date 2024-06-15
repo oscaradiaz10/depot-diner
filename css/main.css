@@ -231,7 +231,7 @@ overflow: hidden;
 
 .card {padding: 30px;
     width:60%;
-    margin: 0 auto;
+    margin: 120px auto 0;
     text-align: center;
 }
 
@@ -318,7 +318,9 @@ overflow: hidden;
     .img-columns {min-height: 280px; max-height: 280px;
     }
 
-    .card {width: 80%;}
+    .card {width: 80%;
+        margin-top: 60px;
+    }
 
     .footer {width: 100%;
         padding:20px;
@@ -363,7 +365,8 @@ overflow: hidden;
     .img-columns {min-height: 240px; max-height: 240px;}
 
     .card {width: 80%;
-        margin-top: 80px}
+        margin-top: 30px
+    }
 
     .contact-info {margin-bottom: 40px;}
 

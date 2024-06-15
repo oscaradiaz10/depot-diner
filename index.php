@@ -124,13 +124,17 @@
             </div>
         </div>
     </div>
-    
-    <div class="card shadow justify-content-md-center">
-        <div class="card-body">
-                <h3>Work With Us</h3>
-                <p>Looking for a job working with friendly people in a fast and fun environment?</p>
-                <p><em>We're currently hiring!</em></p>
-                <button class="btn btn-primary" type="button"><a href="/jobs.php">VIEW OPENINGS</a></button>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="card shadow">  
+                <div class="card-body">
+                    <h3>Work With Us</h3>
+                    <p>Looking for a job working with friendly people in a fast and fun environment?</p>
+                    <p><em>We're currently hiring!</em></p>
+                    <button class="btn btn-primary" type="button"><a href="/jobs.php">VIEW OPENINGS</a></button>
+                </div>
+            </div>
         </div>
     </div>
 
