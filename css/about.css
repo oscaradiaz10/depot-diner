@@ -1,12 +1,13 @@
 .about-sections {
     min-height: 550px;
+    margin-bottom: 120px;
 }
 
 .about-img {object-fit: cover;
     position: absolute;
     height: 550px;
     max-height: 550px;
-    width: 62%;
+    width: 61%;
     right: 0;
     border-radius: 275px 0 0 275px;
     box-shadow: -15px 15px 25px var(--opacity1);
@@ -35,20 +36,25 @@
 @media screen and (max-width:768px) {
     .about-img {
         position: relative;
-        width:100%;
+        width:95vw;
+        margin-left:10px;
+        margin-right: 10px;
         max-height: 320px;
         border-radius: 20px;
         margin-bottom: 15px;
     }
 
-    .about-sections {
-        min-height: 400px;
+    .about-sections {min-height: 400px;
+        margin-bottom: 75px;
     }
     
 }
 
 @media screen and (max-width:576px) {
+    .about-sections {margin-bottom: 60px;    }
+    
     .about-img {
+        width:92vw;
         max-height: 230px;
         border-radius: 15px;
         border: solid 2px var(--white);

@@ -37,7 +37,9 @@
     </nav>
 
     <div class="container-fluid">
+    <?php include ("includes/svg.php"); ?>
         <img class="image-intro" src="media/img_0121-020522-121320.webp" alt="DD insde" width="100%">
+        <div class="image-intro-gradient"></div>
     </div>
 
     <div class="container text-center">
@@ -68,8 +70,6 @@
             </div>
         </div>
     </div>
-
-    <div class="spacer-top"></div>
     
     <!-- HANGAR AT POINT 25 -->
     <div class="container-fluid about-sections">
@@ -88,8 +88,6 @@
         </div>
     </div>
 
-    <div class="spacer-top"></div>
-
     <!-- FRESH FOOD AND SERVICE WITH A SMILE -->
     <div class="container-fluid about-sections">
         <div class="row">
@@ -107,8 +105,6 @@
             </div>
         </div>
     </div>
-
-    <div class="spacer-top"></div>
     
     <!-- A GREAT PLACE TO WORK -->
     <div class="container-fluid about-sections">

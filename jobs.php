@@ -38,6 +38,8 @@
 
     <div class="container-fluid">
         <img class="image-intro" src="media/IMG_7903.jpg" alt="DD insde" width="100%">
+        <?php include ("includes/svg.php"); ?>
+        <div class="image-intro-gradient"></div>
     </div>
 
     <div class="container text-center">
