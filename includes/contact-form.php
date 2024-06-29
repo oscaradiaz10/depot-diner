@@ -1,10 +1,44 @@
+
+<script>
+$(document).ready(function() {
+    $('.myform').on('submit',function(){
+         
+        // Add text 'loading...' right after clicking on the submit button. 
+        $('.output_message').text('Loading...'); 
+         
+        var form = $(this);
+        $.ajax({
+            url: form.attr('action'),
+            method: form.attr('method'),
+            data: form.serialize(),
+            success: function(result){
+                if (result == 'success'){
+                    $('.output_message').text('Message Sent!');  
+                } else {
+                    $('.output_message').text('Error Sending email!');
+                }
+            }
+        });
+         
+        // Prevents default submission of the form after clicking on the submit button. 
+        return false;   
+    });
+});
+</script>
+
 <div class="offcanvas offcanvas-end" id="contact">
     <div class="offcanvas-header">
         <h2 class="offcanvas-title">How Can We Help You?</h2>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">
-        <form id="contact-form" action="" method="post" role="form">
+        <form method="post" class="myform" action="contact-mail.php">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea rows="4" cols="20" name="message" placeholder="Your Message"></textarea><br>
+            <input type="submit" name="send" value="Send"> <span class="output_message"></span>
+        </form>
+        <!--<form id="contact-form" action="" method="post" role="form">
             <div class="messages"></div>
             <div class="controls">
                 <div class="mb-3 mt-3">
@@ -46,30 +80,6 @@
         <div id="success-message" style="display: none;">
         <hr />
         <div class="alert alert-success" role="alert">Thank you for your message. We will get back to you as soon as possible.</div>
-        </div>
+        </div>-->
     </div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-    $('#contact-form').on('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        $.ajax({
-            url: $(this).attr('includes/mail.php'), // The URL to send the data to
-            method: $(this).attr('method'), // The HTTP method to use
-            data: $(this).serialize(), // Serialize the form data
-            success: function(response) {
-                $('#success-message').show(); // Show the success message
-                $('#contact-form')[0].reset(); // Optionally reset the form
-            },
-            error: function() {
-                alert('There was an error sending the message.');
-            }
-        });
-    });
-});
-</script>
-
-<script src="includes/validate.js"></script>
