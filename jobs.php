@@ -13,42 +13,23 @@
 
 <script>
 $(document).ready(function() {
-    $('.careers-form').on('submit', function(e) {
-        e.preventDefault(); // Prevent default form submission
+    $('.careers-form').on('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
 
-        // Validate form fields
-        var isValid = true;
-        $('.careers-form input[required], .careers-form textarea[required]').each(function() {
-            if ($(this).val().trim() === '') {
-                isValid = false;
-                $(this).addClass('is-invalid');
-            } else {
-                $(this).removeClass('is-invalid');
-            }
-        });
-
-        // Check if all required fields are filled
-        if (!isValid) {
-            $('.output_message').html('<div class="alert alert-danger" role="alert">Please fill out all required fields.</div>');
-            return;
-        }   
-
-        // AJAX form submission
-        var form = $(this);
         $.ajax({
-            url: form.attr('action'),
-            method: form.attr('method'),
-            data: form.serialize(),
+            url: 'includes/careers-mail.php',
+            type: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
             success: function(response) {
-                if (response === 'success') {
-                    $('.output_message').html('<div class="alert alert-success" role="alert">Application submitted successfully!</div>');
-                    form.trigger('reset'); // Optionally reset the form after successful submission
+                if (response.status == 'success') {
+                    $('.output_message').html('<div class="alert alert-success">' + response.message + '</div>');
                 } else {
-                    $('.output_message').html('<div class="alert alert-danger" role="alert">Failed to submit application. Please try again later.</div>');
+                    $('.output_message').html('<div class="alert alert-danger">' + response.message + '</div>');
                 }
             },
-            error: function() {
-                $('.output_message').html('<div class="alert alert-danger" role="alert">Failed to submit application. Please try again later.</div>');
+            error: function(xhr, status, error) {
+                $('.output_message').html('<div class="alert alert-danger">An error occurred: ' + error + '</div>');
             }
         });
     });

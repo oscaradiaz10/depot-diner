@@ -7,7 +7,7 @@
         $message = $_REQUEST['message'];
         
         // Set your email address where you want to receive emails. 
-        $to = 'oscar.di@me.com';
+        $to = 'depotdiner@point25prop.com';
         
         $subject = 'New message from Depot Diner from ' . $name;
 
@@ -24,14 +24,14 @@
             body {font-family: Arial, sans-serif;
                 line-height: 1.6;
             }
-            .container {width: 92%;
+            .container {width: 88%;
                 margin: 0 auto;
                 padding: 20px;
                 border: 1px solid rgb(171, 42, 61);
                 border-radius: 10px;
                 background-color: rgb(240, 239, 235);
             }
-            .header {background-color: frgb(171, 42, 61);
+            .header {background-color: rgb(171, 42, 61);
                 color: white;
                 padding: 10px;
                 text-align: left;
