@@ -38,7 +38,7 @@
 
     <div class="container-fluid">
     <?php include ("includes/svg.php"); ?>
-        <img class="image-intro" src="media/img_0121-020522-121320.webp" alt="DD insde" width="100%">
+        <img class="image-intro" src="media/IMG_7976.JPG" alt="DD insde" width="100%">
         <div class="image-intro-gradient"></div>
     </div>
 
@@ -75,12 +75,12 @@
     <div class="container-fluid about-sections">
         <div class="row">
             <div class="col-12">
-                <img class="about-img" src="media/IMG_7977.JPG" alt="Hangar">
+                <img class="about-img" src="./media/IMG_7977.JPG" alt="Hangar">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <h3>Hangar at Point 25</h3>
-                            <p>Since the diner is located right next to the airport, it came with a hangar that's perfect for private events and meetings. Hangar at Point 25 has become the home to beloved local events such as Chiggerfest, and hosting 4th of July concerts has become a new tradition. It will be available to rent soon. <strong>Stay posted for details!</strong></p>
+                            <p>Since the diner is located right next to the airport, it came with a hangar that's perfect for private events and meetings. <span style="display: none";>Hangar at Point 25 has become the home to beloved local events such as Chiggerfest, and hosting 4th of July concerts has become a new tradition.</span> It will be available to rent soon. <strong>Stay posted for details!</strong></p>
                         </div>
                     </div>
                 </div>

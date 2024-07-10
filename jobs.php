@@ -65,7 +65,7 @@ $(document).ready(function() {
     </nav>
 
     <div class="container-fluid">
-        <img class="image-intro" src="media/IMG_7903.jpg" alt="DD insde" width="100%">
+        <img class="image-intro" src="media/img_0121.webp" alt="DD insde" width="100%">
         <?php include ("includes/svg.php"); ?>
         <div class="image-intro-gradient"></div>
     </div>
@@ -74,7 +74,7 @@ $(document).ready(function() {
         <div class="row justify-content-center">
             <div class="col-11">
                 <h1>Love Where You Work</h1>
-                <p>If you want to work with friendly people in a fast and fun environment, we'd love to hear from you! As a new location, we're hiring in all areas of our diner.</p>
+                <p>If you want to work with friendly people in a fast and fun environment, we'd love to hear from you!</p>
             </div>
         </div>
     </div>
@@ -82,18 +82,18 @@ $(document).ready(function() {
     <div class="container spacer-top careers">
         <div class="row text-center">
             <h2>Currently Hiring</h3>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <h4><i class="bi bi-arrow-right-circle"></i> Line Cooks</h4>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <h4><i class="bi bi-arrow-right-circle"></i> Servers</h4>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <h4><i class="bi bi-arrow-right-circle"></i> Dishwashers</h4>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <!--<div class="col-lg-3 col-sm-6">
                 <h4><i class="bi bi-arrow-right-circle"></i> Hostess</h4>
-            </div>
+            </div>-->
         </div>
     </div>
 
