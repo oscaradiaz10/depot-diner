@@ -13,25 +13,32 @@
 
 <script>
 $(document).ready(function() {
-    $('.careers-form').on('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+    $(".careers-form").on("submit", function(e) {
+        e.preventDefault(); // Prevent the default form submission
 
+    var formData = new FormData(this); // Create a FormData object
+
+        // AJAX request
         $.ajax({
             url: 'includes/careers-mail.php',
             type: 'POST',
-            data: $(this).serialize(),
-            dataType: 'json',
-            success: function(response) {
-                if (response.status == 'success') {
-                    $('.output_message').html('<div class="alert alert-success">' + response.message + '</div>');
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(result){
+                if (result == 'success'){
+                    $('.output_message').html('<div class="alert alert-success" role="alert">Thanks for your application. We will review your information and we\'ll get back to you as soon as possible!</div>');  
                 } else {
-                    $('.output_message').html('<div class="alert alert-danger">' + response.message + '</div>');
+                    $('.output_message').html('<div class="alert alert-warning" role="alert">There has been an error with your application. Please review all the fields and try again.</div>');
                 }
             },
-            error: function(xhr, status, error) {
-                $('.output_message').html('<div class="alert alert-danger">An error occurred: ' + error + '</div>');
+            error: function(xhr, status, error){
+                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your application. Please try again later.</div>');
             }
         });
+
+        // Prevents default submission of the form after clicking on the submit button. 
+        return false; 
     });
 });
 </script>
@@ -102,11 +109,11 @@ $(document).ready(function() {
             <hr style="margin-bottom: 5%;"/>
             <h2 style="margin-bottom: 30px;"><i class="bi bi-arrow-down-circle"></i> Apply Now!</h3>
             <div class="col">
-                <form method="post" class="careers-form" action="includes/careers-mail.php">
+                <form method="post" class="careers-form" action="includes/careers-mail.php" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-lg-4 col-md-8 col-sm-12">
                             <div class="mb-4">
-                                <label for="name" class="form-label">Your Name</label>
+                                <label for="name" class="form-label">Full Name</label>
                                 <input type="text" class="form-control" id="name" required="required" data-error="First name is required" name="name">
                             </div>
                         </div>
@@ -119,40 +126,36 @@ $(document).ready(function() {
                         <div class="col-lg-4 col-md-8 col-sm-12">
                             <div class="mb-4">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone" required="required" data-error="Phone number is required" name="phone">
+                                <input type="text" class="form-control" id="phone" required="required" data-error="Phone number is required" name="phone">
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-12">
-                            <label for="interest" class="form-label">Area of Interest <em>(Select all that apply)</em></label>
+                            <label for="interests" class="form-label">Area of Interest <em>(Select all that apply)</em></label>
                             <div class="mb-4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="interest1" value="Line Cook" name="interest[]">
-                                    <label class="form-check-label" for="interest1">Line Cook</label>
+                                    <input class="form-check-input" type="checkbox" id="interests1" value="Line Cook" name="interests[]">
+                                    <label class="form-check-label" for="interests1">Line Cook</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="interest2" value="Server" name="interest[]">
-                                    <label class="form-check-label" for="interest2">Server</label>
+                                    <input class="form-check-input" type="checkbox" id="interests2" value="Server" name="interests[]">
+                                    <label class="form-check-label" for="interests2">Server</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="interest3" value="Dishwasher" name="interest[]">
-                                    <label class="form-check-label" for="interest3">Dishwasher</label>
+                                    <input class="form-check-input" type="checkbox" id="interests3" value="Dishwasher" name="interests[]">
+                                    <label class="form-check-label" for="interests3">Dishwasher</label>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="interest4" value="Hostess" name="interest[]">
-                                    <label class="form-check-label" for="interest4">Hostess</label>
-                                </div>
+                                <!--<div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="interests4" value="Hostess" name="interests[]">
+                                    <label class="form-check-label" for="interests4">Hostess</label>
+                                </div>-->
                             </div>
                         </div>
                         <hr style="margin: 5% 0;"/>
-                        <div class="col-lg-4 col-md-12">
-                            <label for="experience">Tell us your work experience!</label>
-                            <textarea class="form-control" rows="5" id="experience" name="experience" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
-                        </div>
-                        <div class="col-lg-4 col-md-12">
+                        <div class="col-lg-6 col-md-12">
                             <label for="why">Why do you want to work at Depot Diner?</label>
                             <textarea class="form-control" rows="5" id="why" name="why" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
-                        <div class="col-lg-4 col-md-12">
+                        <div class="col-lg-6 col-md-12">
                             <label for="favorite">What's your favorite diner food?</label>
                             <textarea class="form-control" rows="5" id="favorite" name="favorite" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
@@ -170,35 +173,40 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12">
+                        <div class="col-lg-8 col-md-12">
                             <label for="commute">What's the distance of your commute?</label>
-                            <textarea class="form-control" rows="4" id="commute" name="commute" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="2" id="commute" name="commute" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
+                        <hr style="margin: 5% 0;"/>
                         <div class="col-lg-4 col-md-12">
                             <label for="start">How soon can you start?</label>
                             <textarea class="form-control" rows="4" id="start" name="start" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
-                        <hr style="margin: 5% 0;"/>
                         <div class="col-lg-4 col-md-12">
-                            <label for="shift" class="form-label">What's your shift availability? <em>(Select all that apply)</em></label>
-                            <div class="mb-4">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="shiftMorning" value="Morning" name="shift[]">
-                                    <label class="form-check-label" for="shiftMorning">Morning</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="shiftNoon" value="Noon" name="shift[]">
-                                    <label class="form-check-label" for="shiftNoon">Noon</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="shiftAfternoon" value="Afternoon" name="shift[]">
-                                    <label class="form-check-label" for="shiftAfternoon">Afternoon</label>
-                                </div>
-                            </div>
+                            <label for="shift">What days and hours are you available to work?</label>
+                            <textarea class="form-control" rows="4" id="shift" name="shift" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
                         </div>
-                        <div class="col-lg-8 col-md-12">
+                        <div class="col-lg-4 col-md-12">
                             <label for="meet">When can you meet?</label>
-                            <textarea class="form-control" rows="3" id="meet" name="meet" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                            <textarea class="form-control" rows="4" id="meet" name="meet" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                        </div>
+                        <hr style="margin: 5% 0;"/>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="previousJobs">Previous Jobs <em>(Location, Position, Dates of Employment, Duties)</em></label>
+                            <textarea class="form-control" rows="5" id="previousJobs" name="previousJobs" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="education">Education <em>(School, Graduation Date)</em></label>
+                            <textarea class="form-control" rows="5" id="education" name="education" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                        </div>
+                        <hr style="margin: 5% 0;"/>
+                        <div class="col-lg-8 col-md-12">
+                            <label for="references">References</label>
+                            <textarea class="form-control" rows="3" id="references" name="references" required="required" data-error="Please answer this question" style="margin-top: 10px; margin-bottom: 30px;"></textarea>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <label for="resume">Attach Resume</label>
+                            <input type="file" class="form-control" id="resume" required="required" data-error="A resume is required" name="resume" style="margin-top: 10px; margin-bottom: 30px;"/>
                         </div>
                     </div>                    
                     <button type="submit" value="Send" name="send" class="btn btn-primary" style="margin-bottom: 30px;">SUBMIT APPLICATION</button>

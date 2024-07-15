@@ -9,7 +9,7 @@
         // Set your email address where you want to receive emails. 
         $to = 'depotdiner@point25prop.com';
         
-        $subject = 'New message from Depot Diner from ' . $name;
+        $subject = 'New General Message from ' . $name;
 
         // Email headers for HTML email
         $headers = "From: ".$name." <".$email."> \r\n";
