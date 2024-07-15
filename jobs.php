@@ -27,7 +27,7 @@ $(document).ready(function() {
             processData: false,
             success: function(result){
                 if (result == 'success'){
-                    $('.output_message').html('<div class="alert alert-success" role="alert">Thanks for your application. We will review your information and we\'ll get back to you as soon as possible!</div>');  
+                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your application. We will review your information and we\'ll get back to you as soon as possible!</div>');  
                 } else {
                     $('.output_message').html('<div class="alert alert-warning" role="alert">There has been an error with your application. Please review all the fields and try again.</div>');
                 }
