@@ -216,7 +216,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 #fullScreenDiv{
     min-height: 100%; 
-    height: 70vh;
+    height: 75vh;
     width: 100vw;
     padding:0;
     margin: 0;

@@ -95,8 +95,8 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <h3>Hours</h3>
-                    <p><strong>Monday - Thursday</strong><br />7:30 AM - 7:00 PM</p>
-                    <p><strong>Friday - Saturday</strong><br />7:30 AM - 8:00 PM</p>
+                    <p><strong>Monday - Saturday</strong><br />7:30 AM - 7:00 PM</p>
+                    <!-- <p><strong>Friday - Saturday</strong><br />7:30 AM - 8:00 PM</p> -->
                         <hr class="mt-4"/>
                     <h3>Contact</h3>
                     <p>(417) 271-1090</p>
