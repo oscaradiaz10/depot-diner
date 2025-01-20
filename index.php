@@ -61,9 +61,17 @@
     <main class="container spacer-top text-center">
         <div class="row justify-content-center">
             <div class="col-10">
-                <div class="alert alert-danger" role="alert" style="margin-bottom: 100px;">
-                    <strong>We will be closed until January 19, 2025, and will reopen with regular hours on January 20.</strong>
-                </div>
+            <?php
+            date_default_timezone_set('America/Chicago'); // Set timezone to Central Time
+
+            if (time() <= mktime(23, 59, 59, 1, 19, 2025)) {
+                echo '
+                    <div class="alert alert-danger" role="alert" style="margin-bottom: 100px;">
+                        <strong>We will be closed until January 19, 2025, and will reopen with regular hours on January 20.</strong>
+                    </div>
+                ';
+            }
+            ?>
                 <h1>Welcome to the Depot Diner</h1>
                 <p>We're a 1960s-inspired dining destination on Table Rock Lake. Located next to the Hangar at Point 25 and just 200 feet from a newly renovated runway, the Depot Diner is a fun spot to grab a great meal and watch small planes come and go.</p>
                 <p>We serve classic breakfast items, steaks, burgers, gourmet pizza, ice cream, and a delicious menu of desserts. So, stop on in. We'll be waiting with a hot grill, cold drinks, and friendly faces.</p>
