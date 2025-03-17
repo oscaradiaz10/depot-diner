@@ -1,0 +1,142 @@
+{
+    "menu": [
+      {
+        "category": "starters",
+        "time": "Served from 10:30 AM to Close",
+        "category_description": "All starters served with dipping sauce",
+        "items": [
+          {
+            "name": "French Fries",
+            "description": "",
+            "image": "",
+            "price": 7
+          },
+          {
+            "name": "Sweet Potato Fries",
+            "description": "",
+            "image": "",
+            "price": 8
+          },
+          {
+            "name": "Onion Rings",
+            "description": "",
+            "image": "",
+            "price": 12
+          },
+          {
+            "name": "Piglets",
+            "description": "Fried pork loin bites",
+            "image": "",
+            "price": 8
+          },
+          {
+            "name": "Chicken Wings",
+            "description": "6 chicken wings plain or tossed your choice of BBQ or Frank's Red Hot sauce",
+            "image": "",
+            "price": 10
+          },
+          {
+            "name": "Fried Pickle Sprears",
+            "description": "6 fried pickle spears",
+            "image": "",
+            "price": 8
+          },
+          {
+            "name": "Side Salad",
+            "description": "Greens, cucumbers, tomatoes, Parmesan, dressing (ranch, blue cheese, mango, vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island), club crackers on request",
+            "image": "",
+            "price": 6
+          },
+          {
+            "name": "Mozzarella sticks",
+            "description": "6 Mozzarella sticks",
+            "image": "",
+            "price": 9
+          }
+        ]
+      },
+      {
+        "category": "pizza",
+        "time": "Served from 11:00 AM to Close",
+        "category_description": "All pizzas are 14 inches cut in 8 slices",
+        "items": [
+          {
+            "name": "Margherita",
+            "description": "Tomato, mozzarella, and fresh basil.",
+            "image": "images/margherita.jpg",
+            "price": 12.99
+          },
+          {
+            "name": "Pepperoni",
+            "description": "Tomato sauce, mozzarella, and pepperoni.",
+            "image": "images/pepperoni.jpg",
+            "price": 14.99
+          }
+        ]
+      },
+      {
+        "category": "breakfast",
+        "time": "Served all day",
+        "category_description": "Sugar-free syrup and jelly upon request",
+        "items": [
+          {
+            "name": "Pancakes",
+            "description": "Served with maple syrup and butter.",
+            "image": "images/pancakes.jpg",
+            "price": 9.99
+          }
+        ]
+      },
+      {
+        "category": "lunchdinner",
+        "time": "Served from 10:30 AM to Close",
+        "category_description": "Upgrade to onion rings for $3 or sweet potato fries for $2<br/>Potato chips instead of fries on request<br />Extra dipping sauce for $.50",
+        "items": [
+          {
+            "name": "Grilled Chicken Sandwich",
+            "description": "Grilled chicken breast with lettuce, tomato, and mayo on a brioche bun.",
+            "image": "images/chicken_sandwich.jpg",
+            "price": 11.99
+          }
+        ]
+      },
+      {
+        "category": "Dessert",
+        "time": "",
+        "category_description": "",
+        "items": [
+          {
+            "name": "Cheesecake",
+            "description": "Classic New York-style cheesecake with a graham cracker crust.",
+            "image": "images/cheesecake.jpg",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "category": "Drinks",
+        "time": "",
+        "category_description": "Free in house refills",
+        "items": [
+          {
+            "name": "Coca-Cola",
+            "description": "Refreshing cola served with ice.",
+            "image": "images/coca_cola.jpg",
+            "price": 2.99
+          }
+        ]
+      },
+      {
+        "category": "Kids Menu",
+        "items": [
+          {
+            "name": "Mac & Cheese",
+            "description": "Creamy macaroni and cheese.",
+            "image": "images/mac_cheese.jpg",
+            "price": 5.99
+          }
+        ]
+      }
+    ]
+  }
+  
