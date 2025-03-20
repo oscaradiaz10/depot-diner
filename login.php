@@ -2,7 +2,7 @@
 session_start();
 
 // Define your password
-$password = 'your_secure_password';
+$password = '90xa0MbOE12E!'; #your_secure_password
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (!empty($_POST['password']) && $_POST['password'] === $password) {
