@@ -111,7 +111,7 @@
                 // Add category description and time at the top of the tab
                 let content = `
                     <div class="mb-4">
-                        <p class="text-muted">${category.time}</p>
+                        <p class="text-muted" style="margin-top: 4%">${category.time}</p>
                         <p>${category.category_description}</p>
                     </div>
                     <div class="row">

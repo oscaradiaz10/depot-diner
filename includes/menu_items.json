@@ -82,7 +82,7 @@
           {
             "name": "Pancakes",
             "description": "Served with maple syrup and butter.",
-            "image": "images/pancakes.jpg",
+            "image": "../media/IMG_4795.jpeg",
             "price": 9.99
           }
         ]
