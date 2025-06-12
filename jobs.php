@@ -11,38 +11,6 @@
 
 <body>
 
-<script>
-$(document).ready(function() {
-    $(".careers-form").on("submit", function(e) {
-        e.preventDefault(); // Prevent the default form submission
-
-    var formData = new FormData(this); // Create a FormData object
-
-        // AJAX request
-        $.ajax({
-            url: 'includes/careers-mail.php',
-            type: 'POST',
-            data: formData,
-            contentType: false,
-            processData: false,
-            success: function(result){
-                if (result == 'success'){
-                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your application. We will review your information and we\'ll get back to you as soon as possible!</div>');  
-                } else {
-                    $('.output_message').html('<div class="alert alert-warning" role="alert">There has been an error with your application. Please review all the fields and try again.</div>');
-                }
-            },
-            error: function(xhr, status, error){
-                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your application. Please try again later.</div>');
-            }
-        });
-
-        // Prevents default submission of the form after clicking on the submit button. 
-        return false; 
-    });
-});
-</script>
-
 <?php include ("includes/contact-form.php"); ?>
     
     <nav class="navbar navbar-expand-lg bg-light sticky-top">
@@ -109,7 +77,7 @@ $(document).ready(function() {
             <hr style="margin-bottom: 5%;"/>
             <h2 style="margin-bottom: 30px;"><i class="bi bi-arrow-down-circle"></i> Apply Now!</h3>
             <div class="col">
-                <form method="post" class="careers-form" action="includes/careers-mail.php" enctype="multipart/form-data">
+                <form id="careersForm" method="post" class="careers-form" action="includes/careers-mail.php" enctype="multipart/form-data" novalidate>
                     <div class="row">
                         <div class="col-lg-4 col-md-8 col-sm-12">
                             <div class="mb-4">
@@ -126,7 +94,7 @@ $(document).ready(function() {
                         <div class="col-lg-4 col-md-8 col-sm-12">
                             <div class="mb-4">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="text" class="form-control" id="phone" required="required" data-error="Phone number is required" name="phone">
+                                <input type="tel" class="form-control" id="phone" required="required" data-error="Phone number is required" name="phone">
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-12">
@@ -218,5 +186,41 @@ $(document).ready(function() {
     </div>
 
     <?php include "includes/footer.php"; ?>
+
+<script>
+$(document).ready(function() {
+    $(".careers-form").on("submit", function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        var formData = new FormData(this); // Create a FormData object
+
+        // AJAX request
+        $.ajax({
+            url: 'includes/careers-mail.php',
+            type: 'POST',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(result) {
+                if (result == 'success') {
+                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your application. We will review your information and we\'ll get back to you as soon as possible!</div>');  
+                    
+                    // Reset the form
+                    $('.careers-form')[0].reset();
+                } else {
+                    $('.output_message').html('<div class="alert alert-warning" role="alert">There has been an error with your application. Please review all the fields and try again.</div>');
+                }
+            },
+            error: function(xhr, status, error) {
+                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your application. Please try again later.</div>');
+            }
+        });
+
+        return false; // Just a safeguard; already prevented at top
+    });
+});
+</script>
+
+
 </body>
 </html>

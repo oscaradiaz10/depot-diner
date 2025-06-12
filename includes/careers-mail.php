@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Sanitize and validate input
     $name = filter_input(INPUT_POST, 'name');
-    $email = filter_input(INPUT_POST, 'email');
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
     $phone = filter_input(INPUT_POST, 'phone');
     $interests = isset($_POST['interests']) ? implode(", ", $_POST['interests']) : 'None';
     $why = filter_input(INPUT_POST, 'why');
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     // Email details
     $to = "depotdiner@point25prop.com";
-    $subject = "New Depot Diner Online Job Application from " . $name;
+    $subject = "New Online Job Application from " . $name;
     $headers = "From: " . $email . "\r\n";
     $headers .= "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <body>
             <div class='container'>
                 <div class='header'>
-                    <img src='https://oec.hsj.mybluehost.me/media/Depot%20Diner.png' width='210px' alt='logo'>
+                    <img src='https://point25prop.com/media/Depot%20Diner.png' width='210px' alt='logo'>
                 </div>
                 <div class='content'>
                     <p><strong>Name:</strong> $name</p>
