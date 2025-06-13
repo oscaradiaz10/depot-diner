@@ -46,11 +46,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
     // Email details
-    $to = "depotdiner@point25prop.com";
+    $to = "oscar.di@me.com, depotdiner@point25prop.com";
     $subject = "New Online Job Application from " . $name;
-    $headers = "From: " . $email . "\r\n";
-    $headers .= "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers = "From: careers@point25prop.com\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8\r\n";
 
     // Construct email message
     $body = "
