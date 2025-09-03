@@ -1,142 +1,432 @@
 {
-    "menu": [
-      {
-        "category": "starters",
-        "time": "Served from 10:30 AM to Close",
-        "category_description": "All starters served with dipping sauce",
-        "items": [
-          {
-            "name": "French Fries",
-            "description": "",
-            "image": "",
-            "price": 7
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "description": "",
-            "image": "",
-            "price": 8
-          },
-          {
-            "name": "Onion Rings",
-            "description": "",
-            "image": "",
-            "price": 12
-          },
-          {
-            "name": "Piglets",
-            "description": "Fried pork loin bites",
-            "image": "",
-            "price": 8
-          },
-          {
-            "name": "Chicken Wings",
-            "description": "6 chicken wings plain or tossed your choice of BBQ or Frank's Red Hot sauce",
-            "image": "",
-            "price": 10
-          },
-          {
-            "name": "Fried Pickle Sprears",
-            "description": "6 fried pickle spears",
-            "image": "",
-            "price": 8
-          },
-          {
-            "name": "Side Salad",
-            "description": "Greens, cucumbers, tomatoes, Parmesan, dressing (ranch, blue cheese, mango, vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island), club crackers on request",
-            "image": "",
-            "price": 6
-          },
-          {
-            "name": "Mozzarella sticks",
-            "description": "6 Mozzarella sticks",
-            "image": "",
-            "price": 9
-          }
-        ]
-      },
-      {
-        "category": "pizza",
-        "time": "Served from 11:00 AM to Close",
-        "category_description": "All pizzas are 14 inches cut in 8 slices",
-        "items": [
-          {
-            "name": "Margherita",
-            "description": "Tomato, mozzarella, and fresh basil.",
-            "image": "images/margherita.jpg",
-            "price": 12.99
-          },
-          {
-            "name": "Pepperoni",
-            "description": "Tomato sauce, mozzarella, and pepperoni.",
-            "image": "images/pepperoni.jpg",
-            "price": 14.99
-          }
-        ]
-      },
-      {
-        "category": "breakfast",
-        "time": "Served all day",
-        "category_description": "Sugar-free syrup and jelly upon request",
-        "items": [
-          {
-            "name": "Pancakes",
-            "description": "Served with maple syrup and butter.",
-            "image": "../media/IMG_4795.jpeg",
-            "price": 9.99
-          }
-        ]
-      },
-      {
-        "category": "lunchdinner",
-        "time": "Served from 10:30 AM to Close",
-        "category_description": "Upgrade to onion rings for $3 or sweet potato fries for $2<br/>Potato chips instead of fries on request<br />Extra dipping sauce for $.50",
-        "items": [
-          {
-            "name": "Grilled Chicken Sandwich",
-            "description": "Grilled chicken breast with lettuce, tomato, and mayo on a brioche bun.",
-            "image": "images/chicken_sandwich.jpg",
-            "price": 11.99
-          }
-        ]
-      },
-      {
-        "category": "Dessert",
-        "time": "",
-        "category_description": "",
-        "items": [
-          {
-            "name": "Cheesecake",
-            "description": "Classic New York-style cheesecake with a graham cracker crust.",
-            "image": "images/cheesecake.jpg",
-            "price": 6.99
-          }
-        ]
-      },
-      {
-        "category": "Drinks",
-        "time": "",
-        "category_description": "Free in house refills",
-        "items": [
-          {
-            "name": "Coca-Cola",
-            "description": "Refreshing cola served with ice.",
-            "image": "images/coca_cola.jpg",
-            "price": 2.99
-          }
-        ]
-      },
-      {
-        "category": "Kids Menu",
-        "items": [
-          {
-            "name": "Mac & Cheese",
-            "description": "Creamy macaroni and cheese.",
-            "image": "images/mac_cheese.jpg",
-            "price": 5.99
-          }
-        ]
-      }
-    ]
-  }
-  
+	"menu": [
+		{
+			"category": "starters",
+			"time": "Served from 10:30 AM to Close",
+			"category_description": "All starters served with dipping sauce",
+			"category_warning": "",
+			"items": [
+				{
+				"name": "French Fries",
+				"description": "",
+				"image": "",
+				"price": 7.50
+				},
+				{
+				"name": "Sweet Potato Fries",
+				"description": "",
+				"image": "",
+				"price": 8
+				},
+				{
+				"name": "Onion Rings",
+				"description": "",
+				"image": "",
+				"price": 13.50
+				},
+				{
+				"name": "Piglets",
+				"description": "Fried pork loin bites",
+				"image": "",
+				"price": 8
+				},
+				{
+				"name": "Chicken Wings",
+				"description": "6 chicken wings plain or tossed your choice of BBQ or Frank's Red Hot sauce",
+				"image": "",
+				"price": 11.50
+				},
+				{
+				"name": "Fried Pickle Spears",
+				"description": "6 fried pickle spears",
+				"image": "",
+				"price": 7.50
+				},
+				{
+				"name": "Side Salad",
+				"description": "Greens, cucumbers, tomatoes, Parmesan, dressing (ranch, blue cheese, mango, vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island), club crackers on request",
+				"image": "",
+				"price": 7
+				},
+				{
+				"name": "Mozzarella Sticks",
+				"description": "6 Mozzarella sticks",
+				"image": "",
+				"price": 9
+				},
+				{
+				"name": "Jalapeno Poppers",
+				"description": "10 jalapeno poppers",
+				"image": "",
+				"price": 10
+				},
+				{
+				"name": "Fried Okra",
+				"description": "",
+				"image": "",
+				"price": 10
+				}
+			]
+		},
+		{
+			"category": "pizza",
+			"time": "Served from 11:00 AM to Close",
+			"category_description": "All pizzas are 14 inches cut in 8 slices",
+			"category_warning": "",
+			"items": [
+				{
+				"name": "MoJo Pizza",
+				"description": "Pepperoni and Cream Cheese",
+				"image": "",
+				"price": 16
+				},
+				{
+				"name": "Pepperoni, Sausage, or Hamburger",
+				"description": "",
+				"image": "",
+				"price": 14
+				},
+				{
+				"name": "Supreme",
+				"description": "Pepperoni, hamburger, sausage, onions, green peppers, black olives, mushrooms",
+				"image": "",
+				"price": 22
+				},
+				{
+				"name": "Cheese Pizza",
+				"description": "",
+				"image": "",
+				"price": 12
+				},
+				{
+				"name": "Add a Meat Topping",
+				"description": "Hamburger, pepperoni, sausage, Canadian bacon",
+				"image": "",
+				"price": 2.50
+				},
+				{
+				"name": "Add a Vegetable Topping",
+				"description": "Onion, green peppers, black olives, mushrooms, banana peppers",
+				"image": "",
+				"price": 1.50
+				}
+			]
+		},
+		{
+			"category": "breakfast",
+			"time": "Served All Day",
+			"category_description": "Sugar-free syrup and jelly upon request",
+			"category_warning": "* Consuming raw or undercooked animal products may increase your chance of food borne illness.",
+			"items": [
+				{
+				"name": "Depot Breakfast Plate *",
+				"description": "Bacon, ham, sausage, or Cajun sausage, 2 eggs your way, hash browns, white, wheat, or rye toast",
+				"image": "",
+				"price": 12.50
+				},
+				{
+				"name": "Country Fried Steak Breakfast",
+				"description": "Country fried steak, 2 eggs your way, hash browns, white, wheat, or rye toast",
+				"image": "",
+				"price": 16.50
+				},
+				{
+				"name": "Pancakes",
+				"description": "3 pancakes (plain, blueberry, or chocolate chip) served with butter and syrup",
+				"image": "",
+				"price": 8
+				},
+				{
+				"name": "Biscuits and Gravy",
+				"description": "2 biscuits with sausage gravy and two eggs your way",
+				"image": "",
+				"price": 10
+				},
+				{
+				"name": "Breakfast Burrito",
+				"description": "Scrambled eggs, hash browns, Colby Jack cheese, sausage, and bacon wrapped in a tortilla (Served with sides of sour cream and salsa)",
+				"image": "",
+				"price": 13.50
+				},
+				{
+				"name": "Breakfast Casserole",
+				"description": "Biscuit topped with scrambled eggs, hash browns, sausage gravy, cheese, and your choice of sausage, bacon or ham",
+				"image": "",
+				"price": 14.50
+				},
+				{
+				"name": "Omelet",
+				"description": "3 eggs, 3 fillings of your choice (sausage, bacon, ham, green pepper, onion, tomato, cheese, mushroom), hash browns, white, wheat, or rye toast",
+				"image": "",
+				"price": 14.50
+				},
+				{
+				"name": "French Toast",
+				"description": "4 half slices of French toast made with Texas toast, white or wheat bread, sprinkled with powdered sugar",
+				"image": "",
+				"price": 8
+				},
+				{
+				"name": "Cinnamon Roll",
+				"description": "",
+				"image": "",
+				"price": 5
+				}
+			]
+		},
+		{
+			"category": "lunchdinner",
+			"time": "Served from 10:30 AM to Close",
+			"category_description": "Upgrade to onion rings for $3 or sweet potato fries for $2<br/>Potato chips instead of fries on request<br />Extra dipping sauce for $.50",
+			"category_warning": "* Consuming raw or undercooked animal products may increase your chance of food borne illness. ",
+			"items": [
+				{
+				"name": "Depot Burger*",
+				"description": "5 oz patty, bun, special sauce, Cheddar cheese, caramelized onions, bacon, pickles, fries",
+				"image": "",
+				"price": 14.50
+				},
+				{
+				"name": "Western BBQ Burger*",
+				"description": "5 oz patty, bun, bacon, cheddar cheese, caramelized onions, BBQ sauce, fries",
+				"image": "",
+				"price": 14.50
+				},
+				{
+				"name": "Depot Deeper",
+				"description": "Roast beef, American and Cheddar cheese on Parmesan crusted bread, brown gravy, fries",
+				"image": "",
+				"price": 13.50
+				},
+				{
+				"name": "Cheeseburger*",
+				"description": "5 oz patty, bun, lettuce, tomato, onion, pickles, fries. (Swiss, Pepper Jack, Cheddar, or American cheese) Add bacon for additional $1.50",
+				"image": "",
+				"price": 13.50
+				},
+				{
+				"name": "Chicken Sandwich",
+				"description": "Grilled or breaded chicken breast, Swiss cheese, caramelized onions, bacon, honey mustard, special sauce, bun, fries",
+				"image": "",
+				"price": 15
+				},
+				{
+				"name": "Depot Salad",
+				"description": "Grilled or breaded chicken, mixed greens, cucumbers, tomatoes, red onions, Parmesan cheese, club crackers, dressing (ranch, blue cheese, mango vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island)",
+				"image": "",
+				"price": 15.50
+				},
+				{
+				"name": "Southwest Chicken Salad", 
+				"description": "Grilled or breaded chicken, mixed greens, black beans, corn, tomatoes, onion, cheddar cheese, tortilla strips and jalapeno ranch",
+				"image": "",
+				"price": 15.50
+				},
+				{
+				"name": "Chicken Finger Basket", 
+				"description": "Breaded chicken tenders plain or tossed in Frank's Red Hot sauce, fries, dipping sauce",
+				"image": "",
+				"price": 13
+				},
+				{
+				"name": "Fish Basket", 
+				"description": "Crispy fried fish, fries, homemade tartar sauce (Malt Vinegar on request)",
+				"image": "",
+				"price": 14
+				},
+				{
+				"name": "Patty Melt", 
+				"description": "5 oz hamburger patty, caramelized onions, Swiss cheese, special sauce, marble rye bread, pickle spear, fries",
+				"image": "",
+				"price": 14
+				},
+				{
+				"name": "Hot Roast Beef Sandwich", 
+				"description": "Shredded roast beef on white bread with mashed potatoes, covered in brown gravy (Add chef's choice veggie for $2)",
+				"image": "",
+				"price": 13.50
+				},
+				{
+				"name": "Reuben Sandwich", 
+				"description": "Corned beef, sauerkraut, Swiss cheese, Thousand Island sauce, marble rye bread, pickle spear, fries",
+				"image": "",
+				"price": 17	
+				},
+				{
+				"name": "Pork Fritter", 
+				"description": "Breaded pork tenderloin with mashed potatoes, white or brown gravy, chef’s choice veggie, roll, butter (Add a side salad for $3.50)",
+				"image": "",
+				"price": 15
+				},
+				{
+				"name": "Breaded Pork Sandwich", 
+				"description": "Fried pork loin, bun, mayo, lettuce, tomato, onion, pickle, fries",
+				"image": "",
+				"price": 14
+				},
+				{
+				"name": "Grinder", 
+				"description": "Salami, pepperoni, Canadian bacon, Swiss cheese, lettuce, tomato, onion, oil/vinegar mixture, garlic aioli on 6” hoagie, served cold or toasted, fries (Banana peppers on request)",
+				"image": "",
+				"price": 14
+				},
+				{
+				"name": "Philly", 
+				"description": "Beef, Swiss cheese, roasted onions and peppers on a 6” hoagie, fries",
+				"image": "",
+				"price": 15
+				},
+				{
+				"name": "BLT", 
+				"description": "Bacon, lettuce, tomato, and mayo on white bread, fries",
+				"image": "",
+				"price": 13
+				},
+				{
+				"name": "Meatloaf", 
+				"description": "Caramelized onion and bacon meatloaf served with mashed potatoes, chef's choice veggie and a roll, finished with pan gravy (Add a side salad for $3.50)",
+				"image": "",
+				"price": 16
+				},
+				{
+				"name": "Chicken Fried Chicken", 
+				"description": "Chicken fried chicken with mashed potatoes, white or brown gravy, chef's choice veggie, roll, butter (Add a side salad for $3.50)",
+				"image": "",
+				"price": 17
+				},
+				{
+				"name": "Chicken Fried Steak", 
+				"description": "Country fried steak with mashed potatoes, white or brown gravy, chef's choice veggie, roll, butter (Add a side salad for $3.50)",
+				"image": "",
+				"price": 17
+				}
+			]
+		},
+		{
+			"category": "Dessert",
+			"time": "",
+			"category_description": "",
+			"category_warning": "",
+			"items": [
+				{
+				"name": "Ice Cream Cone",
+				"description": "",
+				"image": "",
+				"price": 2
+				},
+				{
+				"name": "Dish of Ice Cream",
+				"description": "Add chocolate, strawberry or caramel syrup for $.50",
+				"image": "",
+				"price": 3
+				},
+				{
+				"name": "Malt or Milkshake",
+				"description": "Vanilla, chocolate or strawberry",
+				"image": "",
+				"price": 5
+				},
+				{
+				"name": "Fried Pie",
+				"description": "Cherry or apple, top with ice cream for $2",
+				"image": "",
+				"price": 4
+				},
+				{
+				"name": "Toasted Coconut Caramel Pecan Pie",
+				"description": "",
+				"image": "",
+				"price": 6
+				},
+				{
+				"name": "Peanut Butter Pie",
+				"description": "",
+				"image": "",
+				"price": 5
+				},
+				{
+				"name": "Root Beer Float",
+				"description": "",
+				"image": "",
+				"price": 5
+				},
+				{
+				"name": "Bread Pudding",
+				"description": "Served with ice cream and topped with carame",
+				"image": "",
+				"price": 7
+				}
+			]
+		},
+		{
+			"category": "Drinks",
+			"time": "",
+			"category_description": "",
+			"category_warning": "",
+			"items": [
+				{
+				"name": "Dr. Pepper, Diet Dr. Pepper, Root Beer, Coke, Diet Coke, Sprite, Lemonade",
+				"description": "Free in-house refills",
+				"image": "",
+				"price": 2.50
+				},
+				{
+				"name": "Lemonade",
+				"description": "Free in-house refills",
+				"image": "",
+				"price": 2.50
+				},
+				{
+				"name": "Coffee, Iced Tea",
+				"description": "Free in-house refills",
+				"image": "",
+				"price": 2.50
+				},
+				{
+				"name": "Orange Juice",
+				"description": "No free refills. Large +$1.50.",
+				"image": "",
+				"price": 2.50
+				},
+				{
+				"name": "Milk",
+				"description": "No free refills. Large +$1.50. Chocolate $.25",
+				"image": "",
+				"price": 2.50
+				}
+			]
+		},
+		{
+			"category": "Kids Menu",
+			"time": "",
+			"category_description": "",
+			"category_warning": "",
+			"items": [
+				{
+				"name": "Kid's Depot Plate",
+				"description": "1 egg your way, 1 slice of bacon or sausage patty, hash browns, 1 slice of white or wheat toast",
+				"image": "",
+				"price": 6
+				},
+				{
+				"name": "Kid's Pancakes",
+				"description": "3 small pancakes (plain, blueberry, or chocolate chip) served with butter and syrup",
+				"image": "",
+				"price": 5
+				},
+				{
+				"name": "Kid's Biscuits and Gravy",
+				"description": "1 biscuit with gravy, 1 egg your way",
+				"image": "",
+				"price": 5
+				},
+				{
+				"name": "Kid's Lunch/Dinner",
+				"description": "1 biscuit with gravy, 1 egg your way",
+				"image": "",
+				"price": 5
+				}
+			]
+		}
+	]
+}

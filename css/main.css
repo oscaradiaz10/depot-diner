@@ -264,6 +264,36 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     text-align: center;
 }
 
+.menu-card {
+    background-color: #fff;
+    padding: 22px;
+    text-align: left;
+    border-top: 3px solid var(--color1);
+    height: 160px;
+    max-height: 160px;
+}
+
+.menu-card-img {
+    background-color: red;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: -24px 15px 0 -22px;
+}
+
+.menu-card-price {float: right;
+    margin: -22px -22px 0 0;
+    background-color: var(--color1);
+    padding: 8px 12px;
+    color: #fff;
+    font-weight:800;
+    font-size: 19px;
+}
+
+.menu-card-description {
+    font-size: 17px;
+}
+
 .careers {background-color: var(--white);
     padding: 40px 40px 50px;
     border-radius: 10px;
