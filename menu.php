@@ -64,7 +64,7 @@
         <div class="row">
 
             <!-- LEFT: Categories -->
-            <div class="col-md-2 mb-4">
+            <div class="col-lg-2 col-md-3 col-sm-3 mb-4">
                 <div class="menu-categories sticky-top-custom">
                     <div class="list-group" id="menuCategories">
                         <button class="list-group-item list-group-item-action active" data-category="starters">Starters</button>
@@ -79,7 +79,7 @@
             </div>
 
             <!-- RIGHT: Menu Items -->
-            <div class="col-md-10">
+            <div class="col-lg-10 col-md-9 col-sm-9">
                 <!-- Appetizers -->
                 <div class="menu-category" id="starters">
                     <!-- Starter Items -->
@@ -102,48 +102,49 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13.50</span>
                             <strong>Onion Rings</strong>
+                            <img class="menu-item-img" src="/media/menu/OnionRings.png" alt="onion rings">
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$8</span>
                             <strong>Piglets</strong>
-                            <p class="mb-0 text-muted">Fried pork loin bites</p>
+                            <p>Fried pork loin bites</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$11.50</span>
                             <strong>Chicken Wings</strong>
-                            <p class="mb-0 text-muted">6 chicken wings plain or tossed your choice of BBQ or Frank's Red Hot sauce</p>
+                            <p>6 chicken wings plain or tossed your choice of BBQ or Frank's Red Hot sauce</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$7.50</span>
                             <strong>Fried Pickle Spears</strong>
-                            <p class="mb-0 text-muted">6 fried pickle spears</p>
+                            <p>6 fried pickle spears</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$7</span>
                             <strong>Side Salad</strong>
-                            <p class="mb-0 text-muted">Greens, cucumbers, tomatoes, Parmesan, dressing (ranch, blue cheese, mango vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island), club crackers on request</p>
+                            <p>Greens, cucumbers, tomatoes, Parmesan, dressing (ranch, blue cheese, mango vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island), club crackers on request</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$9</span>
                             <strong>Mozzarella Sticks</strong>
-                            <p class="mb-0 text-muted">6 Mozzarella sticks</p>
+                            <p>6 Mozzarella sticks</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$10</span>
                             <strong>Jalapeno Poppers</strong>
-                            <p class="mb-0 text-muted">10 poppers</p>
+                            <p>10 poppers</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -163,7 +164,8 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$16</span>
                             <strong>MoJo Pizza</strong>
-                            <p class="mb-0 text-muted">Pepperoni and Cream Cheese</p>
+                            <img class="menu-item-img" src="media/menu/Pizza.png" alt="pizza">
+                            <p>Pepperoni and Cream Cheese</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -176,7 +178,7 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$22</span>
                             <strong>Supreme</strong>
-                            <p class="mb-0 text-muted">Pepperoni, hamburger, sausage, onions, green peppers, black olives, mushrooms</p>
+                            <p>Pepperoni, hamburger, sausage, onions, green peppers, black olives, mushrooms</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -189,14 +191,14 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$2.50</span>
                             <strong>Add a Meat Topping</strong>
-                            <p class="mb-0 text-muted">Hamburger, pepperoni, sausage, Canadian bacon</p>
+                            <p>Hamburger, pepperoni, sausage, Canadian bacon</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$1.50</span>
                             <strong>Add a Vegetable Topping</strong>
-                            <p class="mb-0 text-muted">Onion, green peppers, black olives, mushrooms, banana peppers</p>
+                            <p>Onion, green peppers, black olives, mushrooms, banana peppers</p>
                         </div>
                     </div>
                 </div>
@@ -211,63 +213,65 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$12.50</span>
                             <strong>Depot Breakfast Plate*</strong>
-                            <p class="mb-0 text-muted">Bacon, ham, sausage, or Cajun sausage, 2 eggs your way, hash browns, white, wheat, or rye toast, or biscuit</p>
+                            <p>Bacon, ham, sausage, or Cajun sausage, 2 eggs your way, hash browns, white, wheat, or rye toast, or biscuit</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$16.50</span>
                             <strong>Country Fried Steak Breakfast</strong>
-                            <p class="mb-0 text-muted">Country fried steak with sausage gravy, 2 eggs your way, hash browns, white, wheat, or rye toast, or biscuit</p>
+                            <img class="menu-item-img" src="/media/menu/CountryBreakfast.png" alt="Country Breakfast">
+                            <p>Country fried steak with sausage gravy, 2 eggs your way, hash browns, white, wheat, or rye toast, or biscuit</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$8</span>
                             <strong>Pancakes</strong>
-                            <p class="mb-0 text-muted">3 pancakes (plain, blueberry, or chocolate chip) served with butter and syrup</p>
+                            <p>3 pancakes (plain, blueberry, or chocolate chip) served with butter and syrup</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$10</span>
                             <strong>Biscuits and Gravy</strong>
-                            <p class="mb-0 text-muted">2 biscuits with sausage gravy and two eggs your way</p>
+                            <p>2 biscuits with sausage gravy and two eggs your way</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14.50</span>
                             <strong>Breakfast Casserole</strong>
-                            <p class="mb-0 text-muted">Biscuit topped with scrambled eggs, hash browns, sausage gravy, cheese, and your choice of sausage, bacon or ham</p>
+                            <img class="menu-item-img" src="/media/menu/Casserole.png" alt="Casserole">
+                            <p>Biscuit topped with scrambled eggs, hash browns, sausage gravy, cheese, and your choice of sausage, bacon or ham</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14.50</span>
                             <strong>Omelet</strong>
-                            <p class="mb-0 text-muted">3 eggs, up to 4 fillings of your choice (bacon, sausage, ham, green pepper, onion, mushroom, tomato), hash browns, white, wheat, or rye toast, or biscuit $1.50 upcharge for 5 or more fillings. Cheese comes included in all omelets unless otherwise specified</p>
+                            <p>3 eggs, up to 4 fillings of your choice (bacon, sausage, ham, green pepper, onion, mushroom, tomato), hash browns, white, wheat, or rye toast, or biscuit $1.50 upcharge for 5 or more fillings. Cheese comes included in all omelets unless otherwise specified</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$8</span>
                             <strong>French Toast</strong>
-                            <p class="mb-0 text-muted">6 half slices of French toast made with Texas toast, white or wheat bread, sprinkled with powdered sugar</p>
+                            <p>6 half slices of French toast made with Texas toast, white or wheat bread, sprinkled with powdered sugar</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15</span>
                             <strong>Pork Chop Breakfast</strong>
-                            <p class="mb-0 text-muted">Pork chop, 2 eggs your way, hash browns, white, wheat, or rye, toast, or biscuit</p>
+                            <p>Pork chop, 2 eggs your way, hash browns, white, wheat, or rye, toast, or biscuit</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$18</span>
                             <strong>8 oz Strip Breakfast</strong>
-                            <p class="mb-0 text-muted">8 oz Strip, 2 eggs your way, hash browns, white, wheat, or rye, toast, or biscuit</p>
+                            <p>8 oz Strip, 2 eggs your way, hash browns, white, wheat, or rye, toast, or biscuit</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -288,112 +292,116 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14.50</span>
                             <strong>Depot Burger*</strong>
-                            <p class="mb-0 text-muted">5 oz patty, bun, special sauce, Cheddar cheese, caramelized onions, bacon, pickles, fries</p>
+                            <img class="menu-item-img" src="/media/menu/Burger.png" alt="Burger">
+                            <p>5 oz patty, bun, special sauce, Cheddar cheese, caramelized onions, bacon, pickles, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14.50</span>
                             <strong>Western BBQ Burger*</strong>
-                            <p class="mb-0 text-muted">5 oz patty, bun, bacon, cheddar cheese, caramelized onions, BBQ sauce, fries</p>
+                            <p>5 oz patty, bun, bacon, cheddar cheese, caramelized onions, BBQ sauce, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13.50</span>
                             <strong>Depot Dipper</strong>
-                            <p class="mb-0 text-muted">Roast beef, American and Cheddar cheese on Parmesan crusted bread, brown gravy, fries</p>
+                            <img class="menu-item-img" src="/media/menu/Dipper.png" alt="Dipper">
+                            <p>Roast beef, American and Cheddar cheese on Parmesan crusted bread, brown gravy, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13.50</span>
                             <strong>Cheeseburger*</strong>
-                            <p class="mb-0 text-muted">5 oz patty, bun, lettuce, tomato, onion, pickles, fries. (Swiss, Pepper Jack, Cheddar, or American cheese) Add bacon for additional $1.50</p>
+                            <p>5 oz patty, bun, lettuce, tomato, onion, pickles, fries. (Swiss, Pepper Jack, Cheddar, or American cheese) Add bacon for additional $1.50</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15</span>
                             <strong>Chicken Sandwich</strong>
-                            <p class="mb-0 text-muted">Grilled or breaded chicken breast, Swiss cheese, caramelized onions, bacon, honey mustard, special sauce, bun, fries</p>
+                            <p>Grilled or breaded chicken breast, Swiss cheese, caramelized onions, bacon, honey mustard, special sauce, bun, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15.50</span>
                             <strong>Depot Salad</strong>
-                            <p class="mb-0 text-muted">Grilled or breaded chicken, mixed greens, cucumbers, tomatoes, red onions, Parmesan cheese, club crackers, dressing (ranch, blue cheese, mango vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island)</p>
+                            <p>Grilled or breaded chicken, mixed greens, cucumbers, tomatoes, red onions, Parmesan cheese, club crackers, dressing (ranch, blue cheese, mango vinaigrette, Dorothy Lynch (French), honey mustard, Thousand Island)</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15.50</span>
                             <strong>Southwest Chicken Salad</strong>
-                            <p class="mb-0 text-muted">Grilled or breaded chicken, mixed greens, black beans, corn, green pepper, tomatoes, onion, cheddar cheese, tortilla strips and jalapeno ranch</p>
+                            <img class="menu-item-img" src="/media/menu/Salad.png" alt="Salad">
+                            <p>Grilled or breaded chicken, mixed greens, black beans, corn, green pepper, tomatoes, onion, cheddar cheese, tortilla strips and jalapeno ranch</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13</span>
                             <strong>Chicken Finger Basket</strong>
-                            <p class="mb-0 text-muted">Breaded chicken tenders plain or tossed in Frank's Red Hot sauce, fries, dipping sauce</p>
+                            <p>Breaded chicken tenders plain or tossed in Frank's Red Hot sauce, fries, dipping sauce</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14</span>
                             <strong>Fish Basket</strong>
-                            <p class="mb-0 text-muted">Crispy fried fish, fries, homemade tartar sauce (Malt Vinegar on request)</p>
+                            <p>Crispy fried fish, fries, homemade tartar sauce (Malt Vinegar on request)</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14</span>
                             <strong>Patty Melt</strong>
-                            <p class="mb-0 text-muted">5 oz hamburger patty, caramelized onions, Swiss cheese, special sauce, marble rye bread, pickle spear, fries</p>
+                            <p>5 oz hamburger patty, caramelized onions, Swiss cheese, special sauce, marble rye bread, pickle spear, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13.50</span>
                             <strong>Hot Roast Beef Sandwich</strong>
-                            <p class="mb-0 text-muted">Shredded roast beef on white bread with mashed potatoes, covered in brown gravy (Add chef's choice veggie for $2)</p>
+                            <p>Shredded roast beef on white bread with mashed potatoes, covered in brown gravy (Add chef's choice veggie for $2)</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$17</span>
                             <strong>Reuben Sandwich</strong>
-                            <p class="mb-0 text-muted">Corned beef, sauerkraut, Swiss cheese, Thousand Island sauce, marble rye bread, pickle spear, fries (Try with our special sauce instead of Thousand Island)</p>
+                            <img class="menu-item-img" src="/media/menu/Reuben.png" alt="Reuben">
+                            <p>Corned beef, sauerkraut, Swiss cheese, Thousand Island sauce, marble rye bread, pickle spear, fries (Try with our special sauce instead of Thousand Island)</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14</span>
                             <strong>Breaded Pork Sandwich</strong>
-                            <p class="mb-0 text-muted">Fried pork loin, bun, mayo, lettuce, tomato, onion, pickle, fries</p>
+                            <p>Fried pork loin, bun, mayo, lettuce, tomato, onion, pickle, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$14</span>
                             <strong>Grinder</strong>
-                            <p class="mb-0 text-muted">Salami, pepperoni, Canadian bacon, Swiss cheese, lettuce, tomato, onion, oil/vinegar mixture, garlic aioli on 6” hoagie, served cold or toasted, fries (Banana peppers on request)</p>
+                            <p>Salami, pepperoni, Canadian bacon, Swiss cheese, lettuce, tomato, onion, oil/vinegar mixture, garlic aioli on 6” hoagie, served cold or toasted, fries (Banana peppers on request)</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15</span>
                             <strong>Philly</strong>
-                            <p class="mb-0 text-muted">Beef, Swiss cheese, roasted onions and peppers on a 6” hoagie, fries</p>
+                            <p>Beef, Swiss cheese, roasted onions and peppers on a 6” hoagie, fries</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$13</span>
                             <strong>BLT</strong>
-                            <p class="mb-0 text-muted">Bacon, lettuce, tomato, and mayo on white bread, fries</p>
+                            <p>Bacon, lettuce, tomato, and mayo on white bread, fries</p>
                         </div>
                     </div>
                 </div>
@@ -420,14 +428,15 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$15</span>
                             <strong>Pork Fritter</strong>
-                            <p class="mb-0 text-muted">Breaded pork tenderloin</p>
+                            <p>Breaded pork tenderloin</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$16</span>
                             <strong>Meatloaf</strong>
-                            <p class="mb-0 text-muted">Caramelized onion and bacon meatloaf finished with pan gravy</p>
+                            <img class="menu-item-img" src="/media/menu/Meatloaf.png" alt="Meatloaf">
+                            <p>Caramelized onion and bacon meatloaf finished with pan gravy</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -446,6 +455,7 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$25</span>
                             <strong>10 oz Rib Eye</strong>
+                            <img class="menu-item-img" src="/media/menu/Ribeye.png" alt="Ribeye">
                         </div>
                     </div>
                 </div>
@@ -463,28 +473,29 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$3</span>
                             <strong>Dish of Ice Cream</strong>
-                            <p class="mb-0 text-muted">Sprinkles on request</p>
+                            <img class="menu-item-img" src="/media/menu/IceCream.png" alt="Ice Cream">
+                            <p>Sprinkles on request</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$.50</span>
                             <strong>Add a Topping</strong>
-                            <p class="mb-0 text-muted">Chocolate, strawberry or caramel syrup</p>
+                            <p>Chocolate, strawberry or caramel syrup</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$5</span>
                             <strong>Malt or Milkshake</strong>
-                            <p class="mb-0 text-muted">Vanilla, chocolate or strawberry</p>
+                            <p>Vanilla, chocolate or strawberry</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$4</span>
                             <strong>Fried Pie</strong>
-                            <p class="mb-0 text-muted">Cherry or apple (Top with ice cream for $2)</p>
+                            <p>Cherry or apple (Top with ice cream for $2)</p>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -514,23 +525,23 @@
                         <div class="menu-item-single">
                             <span class="menu-item-price">$2.75</span>
                             <strong>Free inhouse refills</strong>
-                            <p class="mb-0 text-muted">Dr. Pepper</p>
-                            <p class="mb-0 text-muted">Diet Dr. Pepper</p>
-                            <p class="mb-0 text-muted">Root Beer</p>
-                            <p class="mb-0 text-muted">Coke</p>
-                            <p class="mb-0 text-muted">Diet Coke</p>
-                            <p class="mb-0 text-muted">Sprite</p>
-                            <p class="mb-0 text-muted">Lemonade</p>
-                            <p class="mb-0 text-muted">Coffee</p>
-                            <p class="mb-0 text-muted">Iced Tea</p>
+                            <p>Dr. Pepper</p>
+                            <p>Diet Dr. Pepper</p>
+                            <p>Root Beer</p>
+                            <p>Coke</p>
+                            <p>Diet Coke</p>
+                            <p>Sprite</p>
+                            <p>Lemonade</p>
+                            <p>Coffee</p>
+                            <p>Iced Tea</p>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$2.75</span>
                             <strong>No free refills</strong>
-                            <p class="mb-0 text-muted">Orange Juice (Large +$1.50)</p>
-                            <p class="mb-0 text-muted">Milk - Add chocolate for $.25 (Large +$1.50)</p>
+                            <p>Orange Juice (Large +$1.50)</p>
+                            <p>Milk - Add chocolate for $.25 (Large +$1.50)</p>
                         </div>
                     </div>
                 </div>

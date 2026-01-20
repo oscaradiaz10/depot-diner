@@ -3,6 +3,7 @@
     --color2: rgb(217, 136, 89);
     --color3: rgb(49, 64, 53);
     --color4: rgb(240, 239, 235);
+    --color5: rgba(171, 42, 61, .75);
     --white: rgb(255,255,255);
     --black: rbg(10, 10, 10);
     --opacity1: rgba(152, 70, 85, .15);
@@ -266,18 +267,18 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 /* Optional: limit height and allow scroll if many categories */
 .menu-categories {
-  max-height: calc(100vh - 2rem);
-  overflow-y: auto;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
 }
 
 .list-group {
     border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .list-group-item.list-group-item-action {
     border: none;
-    font-size: 1.25rem;
-    font-weight: 500;
 }
 
 .list-group, .list-group-item.list-group-item-action.active {
@@ -288,9 +289,9 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 
 /* Optional: hide sticky on small screens */
 @media (max-width: 767px) {
-  .sticky-top-custom {
-    position: static;
-  }
+    .sticky-top-custom {
+        position: static;
+    }
 }
 
 .menu-item {
@@ -306,24 +307,77 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 }
 
 .menu-item-single p {
-    margin-left: 65px;
+    margin-left: 69px;
     font-size: 1.15rem;
+    display: block;
 }
 
 .menu-item-price {
-    width: 50px; height: 50px;
+    width: 54px; height: 54px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: .825rem;
     font-weight: bold;
     color: var(--white);    
-    background-color: var(--color1);
     border-radius: 50%;
+    background-color: var(--color1)
 }
 
 .menu-item:hover {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.menu-item-img {
+    width: 300px; height: 165px;
+    float: right;
+    margin: -.85rem -.85rem -.85rem 0;
+    border-bottom: solid .25rem var(--color1);
+    background-color:#858585;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-item-img img {
+    background-size: cover;
+}
+
+.menu-item-single::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 576px) {
+    .list-group {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .list-group-item.list-group-item-action {
+        padding: 6px 5px;
+    }
+    .menu-item-price{
+        width: 40px; height: 40px;
+        border: none;
+        border-bottom: solid .215rem var(--color1);
+        background: none;
+        border-radius: 0;
+        color: var(--color1);
+    }
+
+    .menu-item-single p {
+        margin-left: 56px;
+    }
+
+    .menu-item-img {
+        float: none;
+        display: block;
+        margin: 0 0 15px 56px;
+        width: 84%;
+        height: 140px;
+    }
 }
 
 /*
