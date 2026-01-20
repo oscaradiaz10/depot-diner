@@ -55,7 +55,7 @@ body a {text-decoration: none;
 
 /* --- NAVBAR BEGINS --- */
 .navbar {box-shadow: 5px 5px 25px var(--opacity1);
-    border-bottom: #858585; 1px solid;
+    border-bottom: #858585 1px solid;
 }
 
 .navbar-nav li a {text-decoration: none;
@@ -258,6 +258,75 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
     top: -11.5vw;
 }
 
+/** FOOD MENU BEGINS **/
+.sticky-top-custom {
+  position: sticky;
+  top: 130px; /* adjust if you have a navbar */
+}
+
+/* Optional: limit height and allow scroll if many categories */
+.menu-categories {
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+.list-group {
+    border-radius: 5px;
+}
+
+.list-group-item.list-group-item-action {
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.list-group, .list-group-item.list-group-item-action.active {
+    background-color: var(--color1);
+    color: var(--white);
+    text-underline-offset: 6px;
+}
+
+/* Optional: hide sticky on small screens */
+@media (max-width: 767px) {
+  .sticky-top-custom {
+    position: static;
+  }
+}
+
+.menu-item {
+    padding: 0.5rem;
+    border-bottom: 1px dashed #ddd;
+}
+
+.menu-item-single {padding: 10px;}
+
+.menu-item-single strong {
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.menu-item-single p {
+    margin-left: 65px;
+    font-size: 1.15rem;
+}
+
+.menu-item-price {
+    width: 50px; height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .825rem;
+    font-weight: bold;
+    color: var(--white);    
+    background-color: var(--color1);
+    border-radius: 50%;
+}
+
+.menu-item:hover {
+  background-color: #f8f9fa;
+}
+
+/*
 .card {padding: 30px;
     width:60%;
     margin: 120px auto 0;
@@ -293,7 +362,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .menu-card-description {
     font-size: 17px;
 }
-
+*/
 .careers {background-color: var(--white);
     padding: 40px 40px 50px;
     border-radius: 10px;
@@ -306,21 +375,16 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .menu-container {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  }
+    padding-top: 56.25%; /* 16:9 */
+}
 
-.responsive-menu {
+.menu-container iframe {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
     width: 100%;
-    height: 100vh;
-    border: none;
-  }
+    height: 100%;
+}
 
 /**  FOOTER BEGINS  **/
 .footer {background-color: var(--color1);
