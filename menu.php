@@ -466,7 +466,7 @@
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$2</span>
-                            <strong>Ice crea cone</strong>
+                            <strong>Ice Cream Cone</strong>
                         </div>
                     </div>
                     <div class="menu-item">
