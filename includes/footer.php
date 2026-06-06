@@ -16,7 +16,7 @@
                 <p><a href="tel:417-271-109">417-271-1090</a></p>
                 <hr class="mt-5"/>
             <h4>Location</h4>
-            <p><a href="https://www.google.com/maps/place/23032+Brushy+Ln,+Golden,+MO+65658/@36.5284841,-93.6775052,17z/data=!3m1!4b1!4m5!3m4!1s0x87ced5c3ac141757:0x76a6c3df4bb4eca2!8m2!3d36.5284798!4d-93.6753165" target="_blank">23032 Brushy Lane, Golden, MO 65658</a></p>
+            <p><a href="https://www.google.com/maps/place/23032+Brushy+Ln,+Golden,+MO+65658/@36.5284841,-93.6775052,17z/data=!3m1!4b1!4m5!3m4!1s0x87ced5c3ac141757:0x76a6c3df4bb4eca2!8m2!3d36.5284798!4d-93.6753165" target="_blank">23032 Brushy Lane<br/>Golden, MO 65658</a></p>
         </div>
         <div class="col-lg-4 col-md-12">
             <h4>Follow Us!</h4>
