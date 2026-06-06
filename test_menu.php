@@ -44,7 +44,7 @@
 
     <div class="container text-center">
         <div class="row justify-content-center">
-            <div class="col-11">
+            <div class="col-10">
                 <h1>Depot Diner Specialties</h1>
                 <p>Our location and menu were designed hand-in-hand to give you a nostalgic, 1960s-style dining experience. We're serving some of the best breakfast plates this side of Table Rock Lake, as well as grilled Certified Angus Beef burgers that are always fresh, never frozen. We also have gourmet pizza, ice cream, and a delicious assortment of homemade desserts.</p>
                 <p>Around here, we treat you like family, which is why we use the highest quality ingredients, served with a smile.</p>
@@ -110,9 +110,10 @@
             if (tabPane) {
                 // Add category description and time at the top of the tab
                 let content = `
-                    <div class="mb-4">
-                        <p class="text-muted" style="margin-top: 4%">${category.time}</p>
-                        <p>${category.category_description}</p>
+                    <div class="mb-2">
+                        <h4 style="margin-top: 5%;">${category.time}</h4>
+                        <p style="margin-bottom: 1%">${category.category_description}</p>
+                        <p style="margin-bottom: 5%; font-size: 15px; font-style: italic;">${category.category_warning}</p>
                     </div>
                     <div class="row">
                 `;
@@ -120,18 +121,12 @@
                 // Loop through each item and place it in a responsive grid
                 category.items.forEach(item => {
                     content += `
-                        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-                            <div class="card">
-                                ${item.image ? `
-                                    <img src="${item.image}" class="card-img-top" alt="${item.name}">
-                                ` : ''}
-                                <div class="card-body">
-                                    <h5 class="card-title">${item.name}</h5>
-                                    ${item.description ? `<p class="card-text">${item.description}</p>` : ''}
-                                    <p class="card-text">
-                                        <small class="text-muted">$${item.price.toFixed(2)}</small>
-                                    </p>
-                                </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="menu-card">
+                                <!--<img class="menu-card-img" src="" alt="img"/>-->
+                                <p class="menu-card-price">$${item.price}</p>
+                                <h4>${item.name}</h4>
+                                <p class="menu-card-description">${item.description}</p>
                             </div>
                         </div>
                     `;

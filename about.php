@@ -7,6 +7,7 @@
 
     <?php include ("includes/links.php"); ?>
 </head>
+
 <body>
     <?php include ("includes/contact-form.php"); ?>
     
