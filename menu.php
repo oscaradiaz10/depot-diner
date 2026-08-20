@@ -269,8 +269,8 @@
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
-                            <span class="menu-item-price">$18</span>
-                            <strong>8 oz Strip Breakfast</strong>
+                            <span class="menu-item-price">$20</span>
+                            <strong>8 oz Prime Strip Breakfast</strong>
                             <p>8 oz Strip, 2 eggs your way, hash browns, white, wheat, or rye, toast, or biscuit</p>
                         </div>
                     </div>
@@ -447,14 +447,14 @@
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
-                            <span class="menu-item-price">$18</span>
-                            <strong>8 oz Strip</strong>
+                            <span class="menu-item-price">$20</span>
+                            <strong>8 oz Prime Strip Strip</strong>
                         </div>
                     </div>
                     <div class="menu-item">
                         <div class="menu-item-single">
                             <span class="menu-item-price">$25</span>
-                            <strong>10 oz Rib Eye</strong>
+                            <strong>8 oz Prime Ribeye Steak</strong>
                             <img class="menu-item-img" src="/media/menu/Ribeye.png" alt="Ribeye">
                         </div>
                     </div>
