@@ -119,7 +119,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .contact-info {background-color: var(--color3);
     background-image: url("/media/bg-texture.png");
     padding-top: 150px;
-    bottom: -10px !important;
+    margin-bottom: 100px;
 }
 
 .contact-info p, .contact-info h3 {color: white;}
@@ -131,7 +131,7 @@ h1, h2, h3, h4 {font-family: "Piazzolla", serif;
 .food-cat {margin-bottom: -60px;}
 
 .img-columns {object-fit: cover;
-    border-radius: 15px;
+    border-radius: 15px; 
     min-height: 440px; max-height: 440px;
     z-index: -1;
     box-shadow: -10px -10px 25px var(--opacity1);
