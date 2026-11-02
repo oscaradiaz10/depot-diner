@@ -105,9 +105,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
-                    <h3>Hours</h3>
-                    <p><strong>Monday - Saturday</strong><br />7:30 AM - 8:00 PM</p>
-                    <!-- <p><strong>Friday - Saturday</strong><br />7:30 AM - 8:00 PM</p> -->
+                    <h3>Winter Hours</h3>
+                    <p><strong>Monday - Saturday</strong><br />7:30 AM - 7:00 PM</p>
+                    <p>We will close at <strong>4:00 PM</strong> on <strong>Thursday, November 5</strong> for electrical work.</p>
                         <hr class="mt-4"/>
                     <h3>Contact</h3>
                     <p>(417) 271-1090</p>
@@ -129,7 +129,6 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12">
-                    <hr class="mt-5"/>
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.933855981782!2d-93.67544023756521!3d36.528359681428256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ced547a5fe1c59%3A0x8baed86b321327c5!2sDepot%20Diner%20%2F%20Hangar%20at%20Point%2025!5e0!3m2!1sen!2sus!4v1712811011442!5m2!1sen!2sus" width="100%" height="475" style="border: 1px solid var(-color4); margin-bottom: -50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
